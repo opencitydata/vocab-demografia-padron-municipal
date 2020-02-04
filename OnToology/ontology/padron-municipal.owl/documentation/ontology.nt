@@ -94,7 +94,7 @@
 # 
 # http://schema.org/gender
 <http://schema.org/gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://schema.org/gender> <http://www.w3.org/2000/01/rdf-schema#comment> <http://schema.org> .
+<http://schema.org/gender> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://schema.org> .
 <http://schema.org/gender> <http://www.w3.org/2000/01/rdf-schema#label> "Gender"@en .
 <http://schema.org/gender> <http://www.w3.org/2000/01/rdf-schema#label> "Género"@es .
 # 
@@ -404,7 +404,7 @@ _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://schema.org/birthDate
 <http://schema.org/birthDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://schema.org/birthDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://schema.org> .
-<http://schema.org/birthDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Birth date"@en .
+<http://schema.org/birthDate> <http://www.w3.org/2000/01/rdf-schema#label> "Birth date"@en .
 <http://schema.org/birthDate> <http://www.w3.org/2000/01/rdf-schema#label> "Fecha de nacimiento"@es .
 # 
 # http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#activo
@@ -421,9 +421,9 @@ _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#VariacionHabitante> .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when the variation must cause effects."@en .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Fecha desde la que administrativamente la variación debe causar efectos."@es .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> .
-<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion> <http://www.w3.org/2000/01/rdf-schema#label> "Date when the variation must cause effects."@en .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion> <http://www.w3.org/2000/01/rdf-schema#label> "Fecha de variación"@es .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion> <http://www.w3.org/2000/01/rdf-schema#label> "Variation date"@en .
 # 
@@ -729,7 +729,7 @@ _:genid56 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XM
 # 
 # http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#label> "Dirección Postal"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#label> "Postal address"@en .
 # 

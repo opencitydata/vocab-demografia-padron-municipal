@@ -1,0 +1,530 @@
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/linked-data/cube> .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María Carmen Ruiz Moreno - Ayuntamiento de Madrid" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Fernández Ruiz  - Ayuntamiento de Zaragoza" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Gallego San Miguel - Ayuntamiento de Madrid" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María del Mar Arribas de Andrés - Ayuntamiento de Madrid" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Red.es" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Informática - Ayuntamiento de Santiago de Compostela" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Víctor Morlán Plo - Ayuntamiento de Zaragoza" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/terms/title> "Vocabulario para la representación de los cubos de datos del padrón de habitantes"@es .
+<http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal> <http://purl.org/dc/terms/title> "Vocabulary for the representation of the data cubes from census of inhabitants."@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#notation
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales
+<http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://opendata.aragon.es/def/iaest/dimension#nacionalidad
+<http://opendata.aragon.es/def/iaest/dimension#nacionalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://purl.org/linked-data/sdmx/2009/dimension#age
+<http://purl.org/linked-data/sdmx/2009/dimension#age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://purl.org/linked-data/sdmx/2009/dimension#educationLev
+<http://purl.org/linked-data/sdmx/2009/dimension#educationLev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://purl.org/linked-data/sdmx/2009/dimension#refArea
+<http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://purl.org/linked-data/sdmx/2009/dimension#refPeriod
+<http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://purl.org/linked-data/sdmx/2009/dimension#sex
+<http://purl.org/linked-data/sdmx/2009/dimension#sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-dependencia
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-dependencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-feminidad
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-feminidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-infancia
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-infancia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-juventud
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-juventud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-poblacion-activa
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-poblacion-activa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-joven
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-joven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-mortalidad
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-mortalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-natalidad
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-natalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-dependencia
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-dependencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-dependencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-dependencia> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-dependencia> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-feminidad
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-feminidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-feminidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-feminidad> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-feminidad> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-infancia
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-infancia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-infancia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-infancia> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-infancia> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-juventud
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-juventud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-juventud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-juventud> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-juventud> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-poblacion-activa
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-poblacion-activa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-poblacion-activa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-poblacion-activa> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-poblacion-activa> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-reemplazo
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-reemplazo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-reemplazo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-reemplazo> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-sobreenvejecimiento
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-sobreenvejecimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-sobreenvejecimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-sobreenvejecimiento> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-tendencia
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-tendencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-tendencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-tendencia> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-adulta
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-adulta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-adulta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-adulta> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-envejecida
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-envejecida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-envejecida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-envejecida> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-extranjera
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-extranjera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-extranjera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-extranjera> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-infantil-extranjera
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-infantil-extranjera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-infantil-extranjera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-infantil-extranjera> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-joven
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-joven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-joven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-joven> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-joven> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refPeriod
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refPeriod> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-mortalidad
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-mortalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-mortalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-mortalidad> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-mortalidad> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-natalidad
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-natalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-natalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-natalidad> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-natalidad> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_edad-grupos-quinquenales
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_edad-grupos-quinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_edad-grupos-quinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_edad-grupos-quinquenales> <http://purl.org/linked-data/cube#dimension> <http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_numero-personas
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_numero-personas> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refArea
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refArea> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refPeriod
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refPeriod> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_sex
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_sex> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#sex> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_age
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_age> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#age> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_numero-personas
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_numero-personas> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refPeriod
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refPeriod> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_sex
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_sex> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#sex> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_edad-grupos-quinquenales
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_edad-grupos-quinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_edad-grupos-quinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_edad-grupos-quinquenales> <http://purl.org/linked-data/cube#dimension> <http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_educationLev
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_educationLev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_educationLev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_educationLev> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#educationLev> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_municipioProcedencia
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_municipioProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_municipioProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_municipioProcedencia> <http://purl.org/linked-data/cube#dimension> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_numero-personas
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_numero-personas> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_paisProcedencia
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_paisProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_paisProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_paisProcedencia> <http://purl.org/linked-data/cube#dimension> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_provinciaProcedencia
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_provinciaProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_provinciaProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_provinciaProcedencia> <http://purl.org/linked-data/cube#dimension> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refArea
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refArea> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales> <http://purl.org/linked-data/cube#dimension> <http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad> <http://purl.org/linked-data/cube#dimension> <http://opendata.aragon.es/def/iaest/dimension#nacionalidad> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#sex> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_age
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_age> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#age> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_educationLev
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_educationLev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_educationLev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_educationLev> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#educationLev> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_numero-personas
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_numero-personas> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refArea
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refArea> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refPeriod
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refPeriod> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_sex
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_sex> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#sex> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_edad-grupos-quinquenales
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_edad-grupos-quinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_edad-grupos-quinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_edad-grupos-quinquenales> <http://purl.org/linked-data/cube#dimension> <http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_numero-personas
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_numero-personas> <http://purl.org/linked-data/cube#measure> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_paisNacimiento
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_paisNacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_paisNacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_paisNacimiento> <http://purl.org/linked-data/cube#dimension> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refArea
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refArea> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refPeriod
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refPeriod> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex> <http://purl.org/linked-data/cube#dimension> <http://purl.org/linked-data/sdmx/2009/dimension#sex> .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-dependencia> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-feminidad> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-infancia> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-juventud> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-poblacion-activa> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-reemplazo> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-sobreenvejecimiento> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-tendencia> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-adulta> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-envejecida> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-extranjera> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-infantil-extranjera> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-joven> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refPeriod> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-mortalidad> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-natalidad> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://www.w3.org/2000/01/rdf-schema#label> "Data structure definition of inhabitants' demographic structure indicators."@en .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://www.w3.org/2000/01/rdf-schema#label> "Estructura de los datos relacionados con los indicadores de la estructura demográfica de los habitantes registrados en el padrón municipal."@es .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica> <http://www.w3.org/2004/02/skos/core#notation> "DSD_IndicadoresEstuctructuraDemografica" .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_age> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_numero-personas> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refPeriod> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_sex> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad> <http://www.w3.org/2000/01/rdf-schema#label> "Data structure definition of inhabitants by age."@en .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad> <http://www.w3.org/2000/01/rdf-schema#label> "Estructura de los datos relacionados con la edad de los habitantes registrados en el padrón municipal."@es .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad> <http://www.w3.org/2004/02/skos/core#notation> "DSD_PoblacionPorEdad" .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_edad-grupos-quinquenales> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_numero-personas> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refArea> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refPeriod> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_sex> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales> <http://www.w3.org/2000/01/rdf-schema#label> "Data structure definition of inhabitants by five year age groups."@en .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales> <http://www.w3.org/2000/01/rdf-schema#label> "Estructura de los datos relacionados con la edad de los habitantes registrados en el padron municipal según rangos quinquenales."@es .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales> <http://www.w3.org/2004/02/skos/core#notation> "DSD_PoblacionPorEdadGruposQuinquenales" .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_edad-grupos-quinquenales> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_educationLev> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_municipioProcedencia> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_numero-personas> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_paisProcedencia> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_provinciaProcedencia> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refArea> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://www.w3.org/2000/01/rdf-schema#label> "Data structure definition of inhabitants' origin place."@en .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://www.w3.org/2000/01/rdf-schema#label> "Estructura de los datos relacionados con el lugar de procedencia de los habitantes registrados en el padrón municipal."@es .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia> <http://www.w3.org/2004/02/skos/core#notation> "DSD_PoblacionPorLugarProcedencia" .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://www.w3.org/2000/01/rdf-schema#label> "Data structure definition of inhabitants' nationality."@en .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://www.w3.org/2000/01/rdf-schema#label> "Estructura de los datos relacionados con la nacionalidad de los habitantes registrados en el padrón municipal."@es .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad> <http://www.w3.org/2004/02/skos/core#notation> "DSD_PoblacionPorNacionalidad" .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_age> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_educationLev> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_numero-personas> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refArea> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refPeriod> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_sex> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://www.w3.org/2000/01/rdf-schema#label> "Data structure definition of inhabitants' education level."@en .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://www.w3.org/2000/01/rdf-schema#label> "Estructura de los datos relacionados con el nivel de estudio de los habitantes registrados en el padrón municipal."@es .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio> <http://www.w3.org/2004/02/skos/core#notation> "DSD_PoblacionPorNivelEstudio" .
+# 
+# http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_edad-grupos-quinquenales> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_numero-personas> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_paisNacimiento> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refArea> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refPeriod> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://purl.org/linked-data/cube#component> <http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex> .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://www.w3.org/2000/01/rdf-schema#label> "Data structure definition of inhabitants' country of birth."@en .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://www.w3.org/2000/01/rdf-schema#label> "Estructura de los datos relacionados con el país de nacimiento de los habitantes registrados en el padrón municipal."@es .
+<http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento> <http://www.w3.org/2004/02/skos/core#notation> "DSD_PoblacionPorPaisNacimiento" .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

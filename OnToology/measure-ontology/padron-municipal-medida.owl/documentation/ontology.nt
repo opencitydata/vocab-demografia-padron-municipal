@@ -115,7 +115,7 @@
 # 
 # http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 # 
 # http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -323,7 +323,7 @@
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia> <http://www.w3.org/2000/01/rdf-schema#label> "Trend index"@en .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia> <http://www.w3.org/2000/01/rdf-schema#label> "Índice de tendencia"@es .
 # 
-<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of people."@en .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of people"@en .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de personas"@es .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas> <http://www.w3.org/2000/01/rdf-schema#label> "Number of people"@en .

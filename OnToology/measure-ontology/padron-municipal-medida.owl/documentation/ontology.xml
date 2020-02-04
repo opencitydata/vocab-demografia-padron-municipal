@@ -232,7 +232,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -609,7 +609,7 @@
         <rdfs:label xml:lang="es">Índice de tendencia</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
-        <rdfs:comment xml:lang="en">Number of people.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Number of people</rdfs:comment>
         <rdfs:comment xml:lang="es">Número de personas</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"/>
         <rdfs:label xml:lang="en">Number of people</rdfs:label>

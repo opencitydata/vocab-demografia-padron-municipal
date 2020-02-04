@@ -135,7 +135,7 @@
 
 ###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas
 :numero-personas rdf:type owl:DatatypeProperty ;
-                 rdfs:range xsd:double .
+                 rdfs:range xsd:int .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta
@@ -369,7 +369,7 @@
                                 "Índice de tendencia"@es .
 
 
-:numero-personas rdfs:comment "Number of people."@en ,
+:numero-personas rdfs:comment "Number of people"@en ,
                               "Número de personas"@es ;
                  rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
                  rdfs:label "Number of people"@en ,

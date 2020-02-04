@@ -28,7 +28,7 @@
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
         <terms:title xml:lang="es">Vocabulario para la representación de los cubos de datos del padrón de habitantes</terms:title>
-        <terms:title xml:lang="en">Vocabulary for the representation of the data cubes from census of inhabitants.</terms:title>
+        <terms:title xml:lang="en">Vocabulary for data cubes representation of census of inhabitants.</terms:title>
     </owl:Ontology>
     
 

@@ -587,11 +587,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "http://schema.org"
-  }, {
-    "@language" : "en",
-    "@value" : "Birth date"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Birth date"
+  }, {
     "@language" : "es",
     "@value" : "Fecha de nacimiento"
   } ]
@@ -601,7 +601,7 @@
 }, {
   "@id" : "http://schema.org/gender",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "http://schema.org"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -986,6 +986,9 @@
   "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Date when the variation must cause effects."
+  }, {
     "@language" : "es",
     "@value" : "Fecha desde la que administrativamente la variación debe causar efectos."
   } ],
@@ -996,9 +999,6 @@
     "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Date when the variation must cause effects."
-  }, {
     "@language" : "es",
     "@value" : "Fecha de variación"
   }, {
@@ -1708,7 +1708,7 @@
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",

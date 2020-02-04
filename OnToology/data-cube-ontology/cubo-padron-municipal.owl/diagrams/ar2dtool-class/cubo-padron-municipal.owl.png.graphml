@@ -1,0 +1,2461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd">
+   <key for="node" id="d0" yfiles.type="nodegraphics" />
+   <key attr.name="description" attr.type="string" for="node" id="d1" />
+   <key for="edge" id="d2" yfiles.type="edgegraphics" />
+   <key attr.name="description" attr.type="string" for="edge" id="d3" />
+   <key for="graphml" id="d4" yfiles.type="resources" />
+   <graph edgedefault="directed" id="G" parse.edges="117" parse.nodes="97" parse.order="free">
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refArea">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1040.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refArea</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="550.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/linked-data/sdmx/2009/dimension#refArea</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension0" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-poblacion-activa">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1310.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-poblacion-activa</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-poblacion-activa">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="980.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-poblacion-activa</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure1" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-poblacion-activa" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-poblacion-activa">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1090.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://opendata.aragon.es/def/iaest/dimension#nacionalidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="580.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://opendata.aragon.es/def/iaest/dimension#nacionalidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension2" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad" target="nid_http://opendata.aragon.es/def/iaest/dimension#nacionalidad">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-mortalidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1230.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-mortalidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-mortalidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="900.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-mortalidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure3" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-mortalidad" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-mortalidad">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_educationLev">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1130.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_educationLev</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://purl.org/linked-data/sdmx/2009/dimension#educationLev">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="600.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/linked-data/sdmx/2009/dimension#educationLev</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension4" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_educationLev" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#educationLev">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_paisNacimiento">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1130.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_paisNacimiento</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="790.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension5" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_paisNacimiento" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="970.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refPeriod">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1060.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refPeriod</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component6" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component7" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_age">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1000.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_age</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component8" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_age">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_numero-personas">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1120.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_numero-personas</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component9" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_educationLev">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1090.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_educationLev</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component10" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_educationLev">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_sex">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1000.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_sex</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component11" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNivelEstudio" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_sex">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1120.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="870.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure12" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-natalidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1220.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-natalidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-natalidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="890.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-natalidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure13" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-natalidad" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-natalidad">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_numero-personas">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1160.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_numero-personas</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure14" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_numero-personas" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-sobreenvejecimiento">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1340.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-sobreenvejecimiento</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1010.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure15" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-sobreenvejecimiento" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_paisProcedencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1160.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_paisProcedencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="800.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension16" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_paisProcedencia" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-feminidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1240.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-feminidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-feminidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="910.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-feminidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure17" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-feminidad" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-feminidad">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-dependencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-dependencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-dependencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="930.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-dependencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure18" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-dependencia" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-dependencia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refArea">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1140.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refArea</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension19" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_provinciaProcedencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1210.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_provinciaProcedencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="850.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension20" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_provinciaProcedencia" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-infantil-extranjera">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1480.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-infantil-extranjera</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1150.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure21" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-infantil-extranjera" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_municipioProcedencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1210.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_municipioProcedencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="850.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension22" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_municipioProcedencia" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_sex">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="920.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_sex</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://purl.org/linked-data/sdmx/2009/dimension#sex">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="510.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/linked-data/sdmx/2009/dimension#sex</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension23" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_sex" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#sex">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="890.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="960.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component24" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_numero-personas">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1040.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_numero-personas</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component25" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component26" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_sex">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_age">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="920.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_age</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component27" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_age">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refPeriod">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="980.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refPeriod</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component28" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refArea">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1060.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refArea</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension29" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-adulta">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1350.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-adulta</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1020.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure30" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-adulta" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="990.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_numero-personas">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1140.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_numero-personas</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component31" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refPeriod">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1080.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refPeriod</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component32" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1020.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component33" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component34" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component35" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_paisNacimiento">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_edad-grupos-quinquenales">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1230.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_edad-grupos-quinquenales</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component36" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorPaisNacimiento" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_edad-grupos-quinquenales">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_sex">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1100.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_sex</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension37" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_sex" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#sex">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1010.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refArea">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1080.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refArea</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component38" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component39" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_municipioProcedencia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_edad-grupos-quinquenales">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1250.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_edad-grupos-quinquenales</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component40" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_edad-grupos-quinquenales">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1100.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component41" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component42" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_paisProcedencia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component43" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_provinciaProcedencia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component44" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_educationLev">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component45" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorLugarProcedencia" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:measure46" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_numero-personas" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://purl.org/linked-data/sdmx/2009/dimension#refPeriod">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="570.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/linked-data/sdmx/2009/dimension#refPeriod</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension47" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refPeriod" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://purl.org/linked-data/sdmx/2009/dimension#age">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="510.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/linked-data/sdmx/2009/dimension#age</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension48" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_age" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#age">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-juventud">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1230.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-juventud</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-juventud">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="900.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-juventud</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure49" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-juventud" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-juventud">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension50" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_educationLev" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#educationLev">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1070.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component51" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component52" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_sex">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refPeriod">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1160.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refPeriod</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component53" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_numero-personas">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1220.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_numero-personas</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component54" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_edad-grupos-quinquenales">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1310.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_edad-grupos-quinquenales</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component55" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorEdadGruposQuinquenales" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_edad-grupos-quinquenales">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-envejecida">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1390.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-envejecida</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1060.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure56" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-envejecida" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension57" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_sex" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#sex">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="700.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension58" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_edad-grupos-quinquenales" target="nid_http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refPeriod">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1140.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refPeriod</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension59" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refPeriod" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-tendencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1240.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-tendencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="910.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure60" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-tendencia" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:measure61" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_numero-personas" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension62" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_age" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#age">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension63" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_edad-grupos-quinquenales" target="nid_http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:measure64" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_numero-personas" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1080.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1200.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component65" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-reemplazo">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1240.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-reemplazo</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component66" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-reemplazo">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-infancia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1230.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-infancia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component67" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-infancia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-joven">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1340.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-joven</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component68" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-joven">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component69" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-adulta">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component70" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-mortalidad">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component71" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-juventud">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component72" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-dependencia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-extranjera">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1390.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-extranjera</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component73" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-extranjera">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1520.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component74" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component75" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component76" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-sobreenvejecimiento">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component77" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-poblacion-activa">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1250.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component78" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1390.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component79" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component80" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-envejecida">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1120.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component81" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component82" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-tendencia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component83" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-infantil-extranjera">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component84" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-feminidad">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component85" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_IndicadoresEstuctructuraDemografica" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_tasa-de-natalidad">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1060.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure86" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-extranjera" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1000.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension87" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#sex">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1060.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension88" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension89" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refPeriod" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension90" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdadGruposQuinquenales_refPeriod" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-joven">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1010.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-joven</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure91" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-joven" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-joven">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="910.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure92" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-reemplazo" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:measure93" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_numero-personas" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-infancia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="900.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-infancia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure94" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-infancia" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-infancia">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension95" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_refPeriod" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension96" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_edad-grupos-quinquenales" target="nid_http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension97" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="690.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://purl.org/linked-data/cube">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="320.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/linked-data/cube</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:imports98" source="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" target="nid_http://purl.org/linked-data/cube">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:imports</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:versionIRI99" source="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:versionIRI</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_https://creativecommons.org/licenses/by/4.0">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://creativecommons.org/licenses/by/4.0</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_dcterms:license100" source="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" target="nid_https://creativecommons.org/licenses/by/4.0">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">dcterms:license</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension101" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension102" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension103" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#sex">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1040.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension104" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:dimension105" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="920.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure106" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:measure107" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1210.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:dimension108" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales" target="nid_http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:dimension</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="970.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:component109" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component110" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component111" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component112" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component113" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cube:component114" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:component</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1060.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure115" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="1190.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_cube:measure116" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cube:measure</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+   </graph>
+</graphml>

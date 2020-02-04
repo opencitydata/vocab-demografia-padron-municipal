@@ -102,7 +102,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://schema.org/gender
 <http://schema.org/gender> rdf:type owl:ObjectProperty ;
-                           rdfs:comment <http://schema.org> ;
+                           rdfs:isDefinedBy <http://schema.org> ;
                            rdfs:label "Gender"@en ,
                                       "Género"@es .
 
@@ -420,9 +420,9 @@ These levels are represented by the concept list: http://vocab.linkeddata.es/dat
 
 ###  http://schema.org/birthDate
 <http://schema.org/birthDate> rdf:type owl:DatatypeProperty ;
-                              rdfs:isDefinedBy <http://schema.org> ,
-                                               "Birth date"@en ;
-                              rdfs:label "Fecha de nacimiento"@es .
+                              rdfs:isDefinedBy <http://schema.org> ;
+                              rdfs:label "Birth date"@en ,
+                                         "Fecha de nacimiento"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#activo
@@ -440,10 +440,10 @@ These levels are represented by the concept list: http://vocab.linkeddata.es/dat
 :fechaVariacion rdf:type owl:DatatypeProperty ;
                 rdfs:domain :VariacionHabitante ;
                 rdfs:range xsd:date ;
-                rdfs:comment "Fecha desde la que administrativamente la variación debe causar efectos."@es ;
+                rdfs:comment "Date when the variation must cause effects."@en ,
+                             "Fecha desde la que administrativamente la variación debe causar efectos."@es ;
                 rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> ;
-                rdfs:label "Date when the variation must cause effects."@en ,
-                           "Fecha de variación"@es ,
+                rdfs:label "Fecha de variación"@es ,
                            "Variation date"@en .
 
 
@@ -761,7 +761,7 @@ These levels are represented by the concept list: http://vocab.linkeddata.es/dat
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> rdf:type owl:Class ;
-                                                                                                           rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal> ;
+                                                                                                           rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal> ;
                                                                                                            rdfs:label "Dirección Postal"@es ,
                                                                                                                       "Postal address"@en .
 

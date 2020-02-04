@@ -122,7 +122,7 @@
     },
     "numero-personas" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas",
-      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
     },
     "porcentaje-de-poblacion-analfabeta" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta",

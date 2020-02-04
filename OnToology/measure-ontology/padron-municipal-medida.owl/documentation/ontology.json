@@ -1,0 +1,563 @@
+[ {
+  "@id" : "http://purl.org/dc/elements/1.1/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/hasFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/linked-data/cube#MeasureProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@value" : "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"
+  }, {
+    "@value" : "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"
+  }, {
+    "@value" : "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza"
+  }, {
+    "@value" : "María Jesús Gallego San Miguel - Ayuntamiento de Madrid"
+  }, {
+    "@value" : "María del Mar Arribas de Andrés - Ayuntamiento de Madrid"
+  }, {
+    "@value" : "Red.es"
+  }, {
+    "@value" : "Servicio de Informática - Ayuntamiento de Santiago de Compostela"
+  }, {
+    "@value" : "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"
+  }, {
+    "@value" : "Víctor Morlán Plo - Ayuntamiento de Zaragoza"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"
+  }, {
+    "@value" : "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)"
+  } ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://purl.org/dc/elements/1.1/rights" : [ {
+    "@value" : "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "es",
+    "@value" : "Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal."
+  }, {
+    "@language" : "en",
+    "@value" : "Vocabulary for the representation of the data cube measures of the census of inhabitants."
+  } ],
+  "http://purl.org/dc/terms/hasFormat" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida.owl"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@language" : "es",
+    "@value" : "2019-08-30"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal."
+  }, {
+    "@language" : "en",
+    "@value" : "Vocabulary for the representation of the data cube measures of the census of inhabitants."
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/espad-medida"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#edad-media-de-la-poblacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Edad media de la población."
+  }, {
+    "@language" : "en",
+    "@value" : "Median age of the population."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Edad media de la población"
+  }, {
+    "@language" : "en",
+    "@value" : "Median age"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-dependencia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "People under 20 and 65 years and over for every 100 inhabitants aged 20 to 64."
+  }, {
+    "@language" : "es",
+    "@value" : "Personas menores de 20 y de 65 y más años por cada 100 habitantes de 20 a 64 años."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dependency index"
+  }, {
+    "@language" : "es",
+    "@value" : "Índice de dependencia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-feminidad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Proporción de mujeres frente al número de hombres de la población. Se calcula mediante la fórmula: (número de mujeres / número de hombres) * 100"
+  }, {
+    "@language" : "en",
+    "@value" : "Proportion of women versus the number of men in the population. It is calculated by formula: (number of women / number of men) * 100"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Feminity index"
+  }, {
+    "@language" : "es",
+    "@value" : "Índice de feminidad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-infancia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Proporción de población menor de 15 años frente a la población total. Se calcula mediante la fórmula: (población menor de 15 años / población total) * 100."
+  }, {
+    "@language" : "en",
+    "@value" : "Proportion of population under 15 years compared to the total population. It is calculated by formula: (population under 15 years / total population) * 100"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Childhood index"
+  }, {
+    "@language" : "es",
+    "@value" : "Índice de infancia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-juventud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Proporción de gente joven de entre la población envejecida. Se calcula mediante la fórmula: (población menor de 15 años / población mayor de 64 años) x 100"
+  }, {
+    "@language" : "en",
+    "@value" : "Proportion of young people from the aged population. It is calculated by formula: (population under 15 years / population over 64 years) x 100"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Youth index"
+  }, {
+    "@language" : "es",
+    "@value" : "Índice de juventud"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "People aged 0 to 4 years per 1.000 women aged 15 to 49 years."
+  }, {
+    "@language" : "es",
+    "@value" : "Personas de 0 a 4 años por cada 1.000 mujeres de 15 a 49 años."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Maternity index"
+  }, {
+    "@language" : "es",
+    "@value" : "Índice de maternidad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-poblacion-activa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Proporción entre la población de 15 a 39 años y la población de 40 a 64 años."
+  }, {
+    "@language" : "en",
+    "@value" : "Proportion between population aged 15 to 39 and the population aged 40 to 64."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Active population index"
+  }, {
+    "@language" : "es",
+    "@value" : "Índice de población activa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Replacement rate of the population of potentially active age. Corresponds to the percentage of people aged 20 to 29 over the total number of people aged 55 to 64."
+  }, {
+    "@language" : "es",
+    "@value" : "Índice de reemplazo de la población en edad potencialmente activa. Corresponde al porcentaje de personas de 20 a 29 años sobre el total de personas de 55 a 64 años."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Replacement index"
+  }, {
+    "@language" : "es",
+    "@value" : "Índice de reemplazo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Proporción entre la población de 85 y más años y la población de 65 y más años."
+  }, {
+    "@language" : "en",
+    "@value" : "Proportion between the population of 85 years and over and the population of 65 years and over."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Over aging index"
+  }, {
+    "@language" : "es",
+    "@value" : "Índice de sobreenvejecimiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Es un indicador de la dinámica demográfica. En la medida en que presente valores inferiores a cien estará reflejando descenso de la natalidad, menor crecimiento demográfico y envejecimiento. Se calcula mediante la fórmula: (población de 0 y 4 años / población de 5 y 9 años) * 100"
+  }, {
+    "@language" : "en",
+    "@value" : "It is an indicator of demographic dynamics. If it presents values below one hundred, it will be reflecting decrease in birth rate, lower population growth and aging. It is calculated by the formula: (population of 0 and 4 years / population of 5 and 9 years) * 100"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Trend index"
+  }, {
+    "@language" : "es",
+    "@value" : "Índice de tendencia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Number of people."
+  }, {
+    "@language" : "es",
+    "@value" : "Número de personas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Number of people"
+  }, {
+    "@language" : "es",
+    "@value" : "Número de personas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of population between 25 and 64 years."
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población de entre 25 a 64 años"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of adult population"
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población adulta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of illiterate population, or without basic studies or primary."
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población analfabeta, o sin estudios básicos o primarios."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of illiterate population"
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población analfabeta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of population of 65 years and over."
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población de 65 y más años."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of aging population"
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población envejecida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of foreign nationality population over the total population."
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje entre la población con nacionalidad extranjera con respecto al total de la población."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of foreign  nationality population"
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población de nacionalidad extranjera"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of foreign population under 15 years."
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población extranjera menor de 15 años."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of foreign child population"
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población infantil extranjera"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-joven",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of population under 25 years."
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población menor de 25 años."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Percentaje of young population"
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población joven"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of population born abroad over the total population."
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población de nacida en el extranjero sobre el total de población"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of population born abroad"
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de población nacida en el extranjero"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-mortalidad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Deaths per 1.000 inhabitants."
+  }, {
+    "@language" : "es",
+    "@value" : "Defunciones por cada 1.000 habitantes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mortality rate"
+  }, {
+    "@language" : "es",
+    "@value" : "Tasa de mortalidad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-natalidad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/linked-data/cube#MeasureProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Births per 1.000 inhabitants."
+  }, {
+    "@language" : "es",
+    "@value" : "Nacimientos por cada 1.000 habitantes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Birth rate"
+  }, {
+    "@language" : "es",
+    "@value" : "Tasa de natalidad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+} ]

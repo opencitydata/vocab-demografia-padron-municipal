@@ -1,0 +1,243 @@
+{
+  "@context" : {
+    "NucleoPoblacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#NucleoPoblacion"
+    },
+    "municipioNacimiento" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioNacimiento",
+      "@type" : "@id"
+    },
+    "consuladoDestino" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#consuladoDestino",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "seccionResidencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#seccionResidencia",
+      "@type" : "@id"
+    },
+    "DireccionPostal" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal"
+    },
+    "registraHabitante" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#registraHabitante",
+      "@type" : "@id"
+    },
+    "entidadColectivaResidencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#entidadColectivaResidencia",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "EntidadSingular" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#EntidadSingular"
+    },
+    "Embassy" : {
+      "@id" : "http://schema.org/Embassy"
+    },
+    "municipioResidencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioResidencia",
+      "@type" : "@id"
+    },
+    "modificaHabitante" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#modificaHabitante",
+      "@type" : "@id"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "provinciaResidencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaResidencia",
+      "@type" : "@id"
+    },
+    "paisDestino" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisDestino",
+      "@type" : "@id"
+    },
+    "activo" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#activo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "SeccionCensal" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#SeccionCensal"
+    },
+    "EntidadColectiva" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#EntidadColectiva"
+    },
+    "paisNacimiento" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "provinciaDestino" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaDestino",
+      "@type" : "@id"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "Provincia" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Provincia"
+    },
+    "provinciaProcedencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia",
+      "@type" : "@id"
+    },
+    "Municipio" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio"
+    },
+    "diseminadoResidencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#diseminadoResidencia",
+      "@type" : "@id"
+    },
+    "Pais" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Pais"
+    },
+    "fechaVariacion" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#fechaVariacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "gender" : {
+      "@id" : "http://schema.org/gender",
+      "@type" : "@id"
+    },
+    "numeroIdentificacionAyuntamiento" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#numeroIdentificacionAyuntamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Person" : {
+      "@id" : "http://schema.org/Person"
+    },
+    "numeroHojaPadronal" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#numeroHojaPadronal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "municipioProcedencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "paisProcedencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia",
+      "@type" : "@id"
+    },
+    "address" : {
+      "@id" : "http://schema.org/address",
+      "@type" : "@id"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "DimensionProperty" : {
+      "@id" : "http://purl.org/linked-data/cube#DimensionProperty"
+    },
+    "Distrito" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "nucleoResidencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#nucleoResidencia",
+      "@type" : "@id"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "birthPlace" : {
+      "@id" : "http://schema.org/birthPlace",
+      "@type" : "@id"
+    },
+    "nivelEstudios" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#nivelEstudios",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "numeroIdentificacionElectoral" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#numeroIdentificacionElectoral",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "Habitante" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#Habitante"
+    },
+    "tipoDocumentoIdentidad" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#tipoDocumentoIdentidad",
+      "@type" : "@id"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "distritoResidencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#distritoResidencia",
+      "@type" : "@id"
+    },
+    "Diseminado" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado"
+    },
+    "VariacionHabitante" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#VariacionHabitante"
+    },
+    "provinciaNacimiento" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaNacimiento",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "consuladoProcedencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#consuladoProcedencia",
+      "@type" : "@id"
+    },
+    "nationality" : {
+      "@id" : "http://schema.org/nationality",
+      "@type" : "@id"
+    },
+    "tipoVariacion" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#tipoVariacion",
+      "@type" : "@id"
+    },
+    "hasFormat" : {
+      "@id" : "http://purl.org/dc/terms/hasFormat"
+    },
+    "tipoLocalResidencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#tipoLocalResidencia",
+      "@type" : "@id"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "municipioDestino" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioDestino",
+      "@type" : "@id"
+    },
+    "entidadSingularResidencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#entidadSingularResidencia",
+      "@type" : "@id"
+    }
+  }
+}

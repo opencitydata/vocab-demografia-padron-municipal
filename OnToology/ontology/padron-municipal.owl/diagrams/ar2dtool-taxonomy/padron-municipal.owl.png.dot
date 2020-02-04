@@ -1,0 +1,7 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "espad:Habitante" "schema:Person" ; /*classes style*/
+	"espad:Habitante" -> "schema:Person" [ label = "rdfs:subClassOf" ];
+
+}

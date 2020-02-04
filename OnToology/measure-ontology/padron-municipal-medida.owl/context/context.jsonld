@@ -1,0 +1,132 @@
+{
+  "@context" : {
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "tasa-de-mortalidad" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-mortalidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "indice-de-dependencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-dependencia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "porcentaje-de-poblacion-joven" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-joven",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "porcentaje-de-poblacion-infantil-extranjera" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "indice-de-infancia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-infancia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "indice-de-sobreenvejecimiento" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "porcentaje-de-poblacion-adulta" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "edad-media-de-la-poblacion" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#edad-media-de-la-poblacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "indice-de-reemplazo" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "porcentaje-de-poblacion-extranjera" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "tasa-de-natalidad" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-natalidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "MeasureProperty" : {
+      "@id" : "http://purl.org/linked-data/cube#MeasureProperty"
+    },
+    "indice-de-juventud" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-juventud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "indice-de-feminidad" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-feminidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "porcentaje-de-poblacion-nacida-en-el-extranjero" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "indice-de-poblacion-activa" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-poblacion-activa",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "porcentaje-de-poblacion-envejecida" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hasFormat" : {
+      "@id" : "http://purl.org/dc/terms/hasFormat"
+    },
+    "indice-de-tendencia" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "indice-de-maternidad" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "numero-personas" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "porcentaje-de-poblacion-analfabeta" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    }
+  }
+}

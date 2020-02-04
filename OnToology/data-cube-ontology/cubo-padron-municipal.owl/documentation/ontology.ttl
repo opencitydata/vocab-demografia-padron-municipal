@@ -23,7 +23,7 @@
                                                                          <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" ;
                                                                          <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> ;
                                                                          <http://purl.org/dc/terms/title> "Vocabulario para la representación de los cubos de datos del padrón de habitantes"@es ,
-                                                                                                          "Vocabulary for the representation of the data cubes from census of inhabitants."@en .
+                                                                                                          "Vocabulary for data cubes representation of census of inhabitants."@en .
 
 #################################################################
 #    Annotation properties

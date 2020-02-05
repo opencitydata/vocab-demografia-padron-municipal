@@ -1,5 +1,186 @@
 <html>
-<h2 id="desc" class="list">Vocabulary for data cubes representation of census of inhabitants.: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
-<span class="markdown">Descripci&oacute;n completa de la ontolog&iacute;a: en caso de ser posible, a&ntilde;adir un diagrama explicando c&oacute;omo las clases est&aacute;n relacionadas, ejemplos de uso, etc.</span>
+<h2 id="desc" class="list">Vocabulario para la representación de los cubos de datos del padrón de habitantes: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
+<span class="markdown">
+Para la generación de los cubos de datos del Padrón Municipal se reutiliza el vocabulario <a href="https://www.w3.org/TR/vocab-data-cube">W3C Data Cube</a>. Este vocabulario es una recomendación para la publicación de datos multidimensionales que facilita su enlazado con otros datos y conceptos relacionados. Asimismo, este vocabulario es compatible con el estándar SDMX (Statistical Data and Metadata eXchange), que permite compartir e intercambiar datos y metadatos estadísticos entre organizaciones. SDMX es un <a href="https://sdmx.org">ISO International Standard IS-17369</a>,  que se sustenta en conceptos de dimensiones, atributos y medidas descritos como una estructura de datos.</span>
+
+<center><img src="https://www.w3.org/TR/vocab-data-cube/images/qb-fig1.png"><figcaption>Figura 1.- Diagrama del vocabulario W3C Data Cube.</figcaption></center>
+
+<span class="markdown">Como se puede observar en la Figura 1, W3C Data Cube contiene varios conceptos y propiedades que permiten describir datos para diferentes niveles de agregación. Sin embargo, con la finalidad de facilitar la explicación de aquellos conceptos y propiedades que se utilizan para representar los cubos de datos del padrón municipal se empleará el extracto de la Figura 2. Por simplicidad se han empleado nodos en blanco para hacer referencia a las diferentes instancias de [ComponentSpecification](https://www.w3.org/TR/vocab-data-cube/#dfn-qb-componentspecification) que deben generarse para describir cada medida o dimensión.</span>
+
+<center><img src="resources/images/CuboDatosExtracto.png"><figcaption>Figura 2.- Extracto del vocabulario W3C Data Cube.</figcaption></center>
+
+<span class="markdown">
+Concretamente, los cubos de datos están conformados por varias dimensiones y medidas que permiten definir diferentes observaciones. En la Figura 2, el vocabulario, representado por el prefijo qb, se organiza alrededor del concepto de [qb:DataSet](https://www.w3.org/TR/vocab-data-cube/#reference-datasets), que se define como una recopilación de datos que corresponde a una estructura definida por [qb:DataStructureDefinition](https://www.w3.org/TR/vocab-data-cube/#dsd) y que se materializa mediante un conjunto de observaciones representadas por [qb:Observation](https://www.w3.org/TR/vocab-data-cube/#reference-datasets). Las dimensiones y medidas que se pueden definir en la estructura de cada dataset se representan mediante:
+</span>
+<ul>
+ <li><a href="https://www.w3.org/TR/vocab-data-cube/#dsd-dimensions">qb:DimensionProperty</a>: un componente que identifica las dimensiones de las observaciones ya sea con respecto al sexo, edad, tiempo, región geográfica, niveles de estudio, etc. Las dimensiones normalmente representan conceptos, que se toman de una lista de códigos también conocidas como clasificaciones, que se identifican normalmente mediante el uso del vocabulario SKOS.</li>
+ <li><a href="https://www.w3.org/TR/vocab-data-cube/#dsd-dimensions">qp:MeasurementProperty</a>: un componente que representa el valor medido de los datos observados, como por ejemplo, la densidad de población, índice de juventud, porcentaje de población adulta, número de extranjeros, etc.</li>
+</ul>
+
+<span>
+Para la definición de estas dimensiones y medidas también se reutilizan varios vocabularios de referencia que son utilizados en otros proyectos a nivel nacional e internacional:
+
+<ol>
+ <li>Vocabularios de SDMX (Statistical Data and Metadata eXchange):</li>
+ <ul>
+   <li><a href="http://purl.org/linked-data/sdmx/2009/dimension">sdmx-dimension</a>: Para la definición de dimensiones tales como área de referencia, período de referencia, edad simple, sexo, y nivel de estudio.</li>
+   <li><a href="http://purl.org/linked-data/sdmx/2009/code">sdmx-code</a>: Para la definición de listas de conceptos para representar el sexo de los habitantes.</li>
+ </ul>
+ <li>Vocabularios IAEST:</li>
+    <ul>
+      <li><a href="https://opendata.aragon.es/def/iaest/dimension">iaest-dimension</a>: Para la definición de dimensiones tales como <a href="https://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales">edad por grupos quinquenales</a> y <a href="http://opendata.aragon.es/def/iaest/dimension#nacionalidad">nacionalidad</a>.</li>
+      <li>SKOS IAEST: Para la definición de listas de conceptos de <a href="https://opendata.aragon.es/kos/iaest/edad-grupos-quinquenales">rangos de edad de los grupos quinquenales</a> y de la <a href="https://opendata.aragon.es/kos/iaest/nacionalidad">nacionalidad</a>.</li>
+    </ul>
+ <li>Otras listas SKOS:</li>
+ <ul>
+   <li>Para la representación de los años de la dimensión del período de referencia se reutilizará la lista de códigos <a href="http://reference.data.gov.uk/id/year">intervalos de tiempo</a> del gobierno británico.</li>
+   <li>Para los niveles de estudio se reutilizará la lista de códigos de <a href="http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio">tipos de estudio</a> definida para el vocabulario de padrón municipal.</li>
+  <li> Para la representación de las edades simples (es decir por años cumplidos) se ha generado una nueva lista de códigos de <a href="http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad">edad</a>.</li>
+ </ul>
+</ol>
+</span>
+<span class="markdown">
+Si bien se reutilizan los vocabularios anteriormente descritos, ha sido necesario el desarrollo de un vocabulario que permita la representación de las medidas relacionadas con los datos y los requisitos del vocabulario de padrón municipal ([espad-medida](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida)).
+</span>
+
+Al contar con todos los vocabularios necesarios para la representación de los requisitos se pueden definir los cubos que se tendrán para los datos del Padrón Municipal. Es importante mencionar que los requisitos que se representan son aquellos que comprenden la explotación estadística de los datos del padrón municipal. Estos requisitos corresponden a aquellos definidos como Preguntas de Competencia marcados como aceptados (A) y que están comprendidos entre el Req-41 y el Req-73 del entregable de [Especificación de Requisitos](https://github.com/CiudadesAbiertas/vocab-demografia-padron-municipal/requirements).
+
+
+<div id="cubosdeedad">
+<h3 id="qb1" class="list">Cubo de población según edad (edad simple)<span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></h3>
+<span class="markdown">
+  En este cubo se representan aquellos datos relacionados con la edad de los habitantes. Concretamente, se han definido como dimensiones el sexo, el periodo de referencia, el área de referencia, y la edad. Como medida general se ha definido el numero de personas ya que permite encapsular los datos referidos a la población total según edad, población total según edad y sexo, población total según edad, sexo y área, y población total según sexo. En la Figura 3 se presenta el diagrama correspondiente.
+</span>
+</div>
+
+<center>
+  <img src="resources/images/CuboDatosEdad.png"><figcaption>Figura 3.- Cubo de datos de población según edad.</figcaption>
+</center>
+<div id="cubosderangosedad">
+<h3 id="qb2" class="list">Cubo de población según edad por grupos quinquenales<span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></h3>
+<span class="markdown">
+  En este cubo se representan aquellos datos relacionados con la edad de los habitantes por grupos quinquenales. Concretamente, se han definido como dimensiones el sexo, el periodo de referencia, el área de referencia, y grupos de edad por rangos quinquenales. Como medida general se ha definido el numero de personas ya que permite encapsular los datos referidos a la población total según rangos de edad, población total según sexo, población total según rangos de edad y sexo, y población total según rangos de edad, sexo y área.
+</span>
+</div>
+
+<center>
+  <img src="resources/images/CuboDatosEdadRangosQuinquenales.png"><figcaption>Figura 4.- Cubo de datos de población según edad por grupos quinquenales.</figcaption>
+</center>
+
+<div id="cubosdenacionalidad">
+  <h3 id="qb3" class="list">Cubo de población según nacionalidad<span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></h3>
+<span class="markdown">
+  En este cubo se representan aquellos datos relacionados con la nacionalidad de los habitantes. Concretamente, se han definido como dimensiones el sexo, el periodo de referencia, el área de referencia, los grupos de edad por rangos quinquenales, y la nacionalidad. En la dimensión de nacionalidad se pueden especificar las particularidades de los habitantes ya sean estos [españoles](https://opendata.aragon.es/kos/iaest/nacionalidad/espanoles), [extranjeros comunitarios](https://opendata.aragon.es/kos/iaest/nacionalidad/extranjeros-comunitarios-ue-27), o [extranjeros no comunitarios](https://opendata.aragon.es/kos/iaest/nacionalidad/extranjeros-no-comunitarios). Para el caso en el que se tenga que considerar a Reino Unido dentro de la Comunidad Europea se puede emplear el concepto [extranjeros-comunitarios-ue-28](https://opendata.aragon.es/kos/iaest/nacionalidad/extranjeros-comunitarios-ue-28).
+
+  Como medida general se ha definido el numero de personas ya que permite encapsular los datos referidos al total de la población de extranjeros, total de la población de extranjeros según sexo, total de la población española, total de población extranjera comunitaria, y total de población extranjera no comunitaria.
+</span>
+  <center><img src="resources/images/CuboDatosNacionalidad.png"><figcaption>Figura 5.- Cubo de datos de población según nacionalidad.</figcaption></center>
+</div>
+<div id="cubosdeestudios">
+  <h3 id="qb4" class="list">Cubo de población según nivel de estudios<span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></h3>
+<span class="markdown">
+  En este cubo se representan aquellos datos relacionados con el nivel de estudios de los habitantes. Concretamente, se han definido como dimensiones el periodo de referencia, área de referencia, sexo, edad simple, y el nivel de estudios. Como medida general se ha incluido numero-personas para encapsular los valores asociados al total de la población según su nivel de estudio y edad, total de población según nivel de estudio, edad y sexo en el área de referencia X y periodo Y.
+
+</span>
+  <center><img src="resources/images/CuboDatosEstudios.png"><figcaption>Figura 6.- Cubo de datos de población según nivel de estudios.</figcaption></center>
+</div>
+<div id="cubosdeprocedencia">
+  <h3 id="qb5" class="list">Cubo de población según lugar de procedencia<span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></h3>
+  <span class="markdown">
+  En este cubo se representan aquellos datos relacionados con el lugar de procedencia de los habitantes. Concretamente, se han definido como dimensiones el periodo de referencia, área, nivel de estudios, grupos de edad por grupos quinquenales, municipio de procedencia, provincia de procedencia, y país de procedencia. Es importante mencionar que se han reusado las propiedades [municipio](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia), [provincia](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia), y [país](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia) de procedencia del vocabulario desarrollado para representar el raw data de los ficheros de intercambio del padrón municipal. Finalmente, como medidas se ha definido el número de personas con la finalidad de representar el total de habitantes según el país de procedencia del área X, provincia de procedencia del área X, municipio de procedencia del área X, país de procedencia y nivel de estudios según rangos de edad de los habitantes del área X, provincia de procedencia y nivel de estudios según rangos de edad de los habitantes del área X, municipio de procedencia y nivel de estudios según rangos de edad de los habitantes del área X.
+</span>
+  <center><img src="resources/images/CuboDatosProcedencia.png"><figcaption>Figura 7.- Cubo de datos de población según lugar de procedencia.</figcaption></center>
+</div>
+<div id="cubosdepaisnacimiento">
+  <h3 id="qb6" class="list">Cubo de población según país de nacimiento<span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></h3>
+  <span class="markdown">
+  En este cubo se representan aquellos datos relacionados con el país de nacimiento de los habitantes. Concretamente, se han definido como dimensiones el sexo, el periodo de referencia, el área de referencia, los grupos de edad por rangos quinquenales, y el país de nacimiento. Es importante mencionar que se ha reusado la propiedad [paisNacimiento](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento) del vocabulario desarrollado para representar el raw data de los ficheros de intercambio del padrón municipal. Como medida general se ha definido el numero de personas ya que permite encapsular los datos referidos al total de la población que ha nacido fuera de España, total de la población de según el país de nacimiento y según sexo, total de la población según país de nacimiento.
+</span>
+  <center><img src="resources/images/CuboDatosPaisNacimiento.png"><figcaption>Figura 8.- Figura 8.- Cubo de datos de población según país de nacimiento.</figcaption></center>
+</div>
+<div id="cubosdeindicadores">
+  <h3 id="qb7" class="list">Cubo de indicadores de estructura demográfica<span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></h3>
+  <span class="markdown">
+  En este cubo se representan aquellos datos relacionados con índices que se calculan a partir de los datos de los habitantes del padrón municipal. Como dimensiones se han definido el periodo de referencia y el área en la que se calculan los valores de dichos índices. Las medidas asociadas a este cubo se han definido particularmente para cada índice, así tenemos índice de dependencia, índice de feminidad, índice de infancia, índice de juventud, índice de maternidad, índice de población activa, índice de reemplazo, índice de sobreenvejecimento, índice de tendencia, tasa de mortalidad, tasa de natalidad, edad media de la población, porcentaje de población nacida en el extranjero (porcentaje-de-poblacion-extranjera), porcentaje de población joven, porcentaje de población adulta, porcentaje de población envejecida, porcentaje de población extranjera infantil. Finalmente, y siguiendo la generalización descrita en los otros cubos, se ha definido también la medida numero de personas para encapsular los valores de la población total, número de crecimiento de la población, y la población total en un rango de años.
+</span>
+  <center><img src="resources/images/CuboDatosIndicadores.png"><figcaption>Figura 9.- Cubo de datos de indicadores de estructura demográfica.</figcaption></center>
+</div>
+
+<h2 id="exa" class="list">Ejemplos de los Cubos de Datos de Padrón Municipal <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+A continuación, se presentan un par de ejemplos en los que se describen datos de la población según la estructura de los cubos definidos previamente.</span>
+
+<div id="example1">
+  <h3 id="exz1" class="list">Ejemplo 1: Población según área, sexo y rango de edad.</h3>
+<span class="markdown">
+  En este ejemplo se representan lo datos del total de población de la ciudad de Madrid según el área, rangos de edad, y sexo. En la Figura 10 se presenta el diagrama correspondiente a la representación de estos datos de acuerdo al cubo de datos de población según edad.
+
+</span>
+
+  <center><img src="resources/images/EjemploCuboDatosPoblacion-RangoEdades-Sexo-AreaResidencia.png"><figcaption>Figura 10.- Ejemplo de población total según rango de edad, sexo y área de residencia.</figcaption></center>
+
+<span class="markdown">
+  A continuación, teniendo en cuenta este diagrama, se enumeran los pasos necesarios para crear las instancias correspondientes con los datos asociados a este ejemplo.
+
+  1) Definición del conjunto o cubo de datos: Se genera una instancia de [qb:Dataset](http://purl.org/linked-data/cube#DataSet) que representará el conjunto de datos del ejemplo. Luego, se enlaza este conjunto, mediante la propiedad [qb:structure](http://purl.org/linked-data/cube#structure), con la instancia de la estructura de datos que se define en el paso 2.
+</span>
+  <pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DS_PoblacionPorEdadGruposQuinquenales&gt; a qb:DataSet ;
+qb:structure &lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; .
+  </pre>
+<span class="markdown">
+2) Definición de la estructura de datos: En este paso se especifican las dimensiones y medidas que encapsula el cubo de población según grupos quinquenales. Para esto se crea una instancia de [qb:DataStructureDefinition](http://purl.org/linked-data/cube#DataStructureDefinition) con sus metadatos asociados. Es importante mencionar que esta estructura ya viene definida en las instancias que contiene este vocabulario. Dichas instancias son de tipo [ComponentSpecification](https://www.w3.org/TR/vocab-data-cube/#dfn-qb-componentspecification) y se generan para representar cada dimensión o medida. Sin embargo, se presenta el ejemplo de cómo también se puede generar con nodos en blanco en lugar de instancias de ComponentSpecification.
+</span>
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; a qb:DataStructureDefinition ;
+rdfs:label "Estructura de los cubos de datos que se corresponden con el conjunto de datos de padrón municipal de la ciudad de
+Madrid, en este archivo se detalla el número de habitantes según su sexo, rango de edad y el área donde reside"@es ;
+skos:notation "DSD_PoblacionPorEdad" .
+  </pre>
+<span class="markdown">
+Posteriormente, se definen las dimensiones que tiene la estructura de datos del cubo. Para lo cual se enlaza, mediante la propiedad [qb:component](http://purl.org/linked-data/cube#component), la estructura de datos definida previamente con el nodo en blanco correspondiente. A continuación, se enlaza el mismo nodo en blanco, mediante la propiedad [qb:dimension](http://purl.org/linked-data/cube#dimension), con el concepto concreto del vocabulario que representa la dimensión que se está representando. En el caso del ejemplo, se especifican como dimensiones: sexo, área de referencia, periodo de referencia, y la edad por grupos quinquenales.
+</span>
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; qb:component _:node1egmfx1 .
+_:node1egmfx1 qb:dimension sdmx-dimension:sex .
+
+&lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; qb:component _:node1egmfx2 .
+_:node1egmfx2 qb:dimension sdmx-dimension:refArea .
+
+&lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; qb:component _:node1egmfx3 .
+_:node1egmfx3 qb:dimension sdmx-dimension:refPeriod .
+
+&lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; qb:component _:node1egmfx4 .
+_:node1egmfx4 qb:dimension iaest-dimension:edad-grupos-quinquenales.
+</pre>
+<span class="markdown">
+De igual forma, se definen las medidas de la estructura de datos. Para ello, se enlaza, mediante la propiedad [qb:component](http://purl.org/linked-data/cube#component), la estructura de datos con el nodo en blanco correspondiente. A continuación, se enlaza el mismo nodo en blanco, mediante la propiedad [qb:measure](http://purl.org/linked-data/cube#measure), con el concepto concreto del vocabulario que representa la medida que se está representando. En el caso del ejemplo, la medida que se especifica es el número de personas.
+</span>
+<pre>
+  &lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; qb:component _:node1egmfx5 .
+_:node1egmfx5 qb:measure espad-measure:numero-personas.
+</pre>
+<span class="markdown">
+3) Definición de una observación del Dataset: El paso final consiste en la representación de las observaciones. Para ello, se crea un instancia de [qb:Observation](http://purl.org/linked-data/cube#Observation) para cada dato que se va a representar. Así también, se enlaza, mediante la propiedad [qb:dataSet](http://purl.org/linked-data/cube#dataSet), la observación con el conjunto de datos al que correponde.
+Adicionalmente, se instancian las dimensiones y medidas que se describen en la observación. Para ello se emplean las propiedades definidas en la estructura de datos, descritas en el paso 2. Cada una de estas dimensiones y medidas estan enlazadas con los valores correspondientes (instancias de las listas de códigos o conceptos según sea el caso).
+</span>
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-muinicipal/a209fd32c10cf5d06e4e6aedf8b81950b4e981f3&gt; a qb:Observation ;
+qb:dataSet &lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-muinicipal/DS_PoblacionPorEdadGruposQuinquenales&gt; ;
+sdmx-dimension:refArea &lt;http://vocab.ciudadesabiertas.es/recurso/territorio/distrito/Centro&gt; ;
+sdmx-dimension:refPeriod &lt;http://reference.data.gov.uk/id/year/2019&gt; ;
+espad-medida:numero-personas ”2731"^^xsd:int ;
+sdmx-dimension:sexo &lt;http://purl.org/linked-data/sdmx/2009/code#sex-M&gt; ;
+iaest-dimension:edad-grupos-quinquenales &lt;https://opendata.aragon.es/kos/iaest/edad-grupos-quinquenales/20-a-24&gt; .
+</pre>
+
+  <div id="example2">
+    <h3 id="exz2" class="list">Ejemplo 2: Índice de juventud</h3>
+<span class="markdown">
+En este ejemplo se representan aquellos datos relacionados con el índice de juventud que se registra en la población de Madrid. Las instancias se crean de la misma manera que para el Ejemplo 1.  En la Figura 9 se presenta el diagrama correspondiente al índice de juventud de los años 2018 y 2019 en el distrito Centro. Estos datos son representados por dos observaciones en las que se especifican los valores concretos de las dimensiones y la medida para este caso.
+</span>
+    <center><img src="resources/images/EjemploCuboDatosIndice_De_Juventud.png"><figcaption>Figura 9.- Ejemplo de población total según rango de edad, sexo y área de residencia.</figcaption></center>
+
+<span class="markdown"> Finalmente, se han generado varios [ejemplos de consultas](https://github.com/CiudadesAbiertas/vocab-demografia-padron-municipal/blob/master/examples/queries-cubos-datos.md) que se pueden ejecutar para extraer los datos representados con cada uno de los cubos descritos en el presente documento.</span>
 
 </html>

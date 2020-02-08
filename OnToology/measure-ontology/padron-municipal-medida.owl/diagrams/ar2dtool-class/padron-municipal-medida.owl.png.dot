@@ -1,0 +1,30 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" -> "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" [ label = "dc:identifier" ];
+	"http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" -> "base:" [ label = "vann:preferredNamespaceUri" ];
+	"http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" -> "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/espad-medida" [ label = "vann:preferredNamespacePrefix" ];
+	"http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" -> "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida.owl" [ label = "terms:hasFormat" ];
+	"http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" -> "https://creativecommons.org/licenses/by/4.0" [ label = "terms:license" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:porcentaje-de-poblacion-infantil-extranjera" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:porcentaje-de-poblacion-nacida-en-el-extranjero" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:indice-de-tendencia" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:indice-de-reemplazo" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:tasa-de-mortalidad" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:porcentaje-de-poblacion-analfabeta" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:indice-de-feminidad" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:indice-de-juventud" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:edad-media-de-la-poblacion" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:indice-de-dependencia" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:porcentaje-de-poblacion-envejecida" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:tasa-de-natalidad" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:porcentaje-de-poblacion-adulta" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:indice-de-sobreenvejecimiento" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:porcentaje-de-poblacion-joven" ];
+	"owl:Thing" -> "xsd:int" [ label = "base:numero-personas" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:indice-de-infancia" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:indice-de-poblacion-activa" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:porcentaje-de-poblacion-extranjera" ];
+	"owl:Thing" -> "xsd:double" [ label = "base:indice-de-maternidad" ];
+
+}

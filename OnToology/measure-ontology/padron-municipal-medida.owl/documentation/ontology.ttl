@@ -1,0 +1,442 @@
+@prefix : <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> .
+
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> rdf:type owl:Ontology ;
+                                                                           <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid" ,
+                                                                                                                         "María Carmen Ruiz Moreno - Ayuntamiento de Madrid" ,
+                                                                                                                         "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza" ,
+                                                                                                                         "María Jesús Gallego San Miguel - Ayuntamiento de Madrid" ,
+                                                                                                                         "María del Mar Arribas de Andrés - Ayuntamiento de Madrid" ,
+                                                                                                                         "Red.es" ,
+                                                                                                                         "Servicio de Informática - Ayuntamiento de Santiago de Compostela" ,
+                                                                                                                         "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña" ,
+                                                                                                                         "Víctor Morlán Plo - Ayuntamiento de Zaragoza" ;
+                                                                           <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)" ,
+                                                                                                                     "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" ;
+                                                                           <http://purl.org/dc/elements/1.1/identifier> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                                                                           <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" ;
+                                                                           <http://purl.org/dc/terms/description> "Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal."@es ,
+                                                                                                                  "Vocabulary for the representation of the data cube measures of the census of inhabitants."@en ;
+                                                                           <http://purl.org/dc/terms/hasFormat> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida.owl> ;
+                                                                           <http://purl.org/dc/terms/issued> "2019-08-30"@es ;
+                                                                           <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> ;
+                                                                           <http://purl.org/dc/terms/title> "Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal."@es ,
+                                                                                                            "Vocabulary for the representation of the data cube measures of the census of inhabitants."@en ;
+                                                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/espad-medida> ;
+                                                                           <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
+                                                                           owl:versionInfo "1.0.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/identifier
+<http://purl.org/dc/elements/1.1/identifier> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/hasFormat
+<http://purl.org/dc/terms/hasFormat> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#edad-media-de-la-poblacion
+:edad-media-de-la-poblacion rdf:type owl:DatatypeProperty ;
+                            rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-dependencia
+:indice-de-dependencia rdf:type owl:DatatypeProperty ;
+                       rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-feminidad
+:indice-de-feminidad rdf:type owl:DatatypeProperty ;
+                     rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-infancia
+:indice-de-infancia rdf:type owl:DatatypeProperty ;
+                    rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-juventud
+:indice-de-juventud rdf:type owl:DatatypeProperty ;
+                    rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad
+:indice-de-maternidad rdf:type owl:DatatypeProperty ;
+                      rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-poblacion-activa
+:indice-de-poblacion-activa rdf:type owl:DatatypeProperty ;
+                            rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo
+:indice-de-reemplazo rdf:type owl:DatatypeProperty ;
+                     rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento
+:indice-de-sobreenvejecimiento rdf:type owl:DatatypeProperty ;
+                               rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia
+:indice-de-tendencia rdf:type owl:DatatypeProperty ;
+                     rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas
+:numero-personas rdf:type owl:DatatypeProperty ;
+                 rdfs:range xsd:int .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta
+:porcentaje-de-poblacion-adulta rdf:type owl:DatatypeProperty ;
+                                rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta
+:porcentaje-de-poblacion-analfabeta rdf:type owl:DatatypeProperty ;
+                                    rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida
+:porcentaje-de-poblacion-envejecida rdf:type owl:DatatypeProperty ;
+                                    rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera
+:porcentaje-de-poblacion-extranjera rdf:type owl:DatatypeProperty ;
+                                    rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera
+:porcentaje-de-poblacion-infantil-extranjera rdf:type owl:DatatypeProperty ;
+                                             rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-joven
+:porcentaje-de-poblacion-joven rdf:type owl:DatatypeProperty ;
+                               rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero
+:porcentaje-de-poblacion-nacida-en-el-extranjero rdf:type owl:DatatypeProperty ;
+                                                 rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-mortalidad
+:tasa-de-mortalidad rdf:type owl:DatatypeProperty ;
+                    rdfs:range xsd:double .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-natalidad
+:tasa-de-natalidad rdf:type owl:DatatypeProperty ;
+                   rdfs:range xsd:double .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/linked-data/cube#MeasureProperty
+<http://purl.org/linked-data/cube#MeasureProperty> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#edad-media-de-la-poblacion
+:edad-media-de-la-poblacion rdf:type owl:NamedIndividual ,
+                                     <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-dependencia
+:indice-de-dependencia rdf:type owl:NamedIndividual ,
+                                <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-feminidad
+:indice-de-feminidad rdf:type owl:NamedIndividual ,
+                              <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-infancia
+:indice-de-infancia rdf:type owl:NamedIndividual ,
+                             <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-juventud
+:indice-de-juventud rdf:type owl:NamedIndividual ,
+                             <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad
+:indice-de-maternidad rdf:type owl:NamedIndividual ,
+                               <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-poblacion-activa
+:indice-de-poblacion-activa rdf:type owl:NamedIndividual ,
+                                     <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-reemplazo
+:indice-de-reemplazo rdf:type owl:NamedIndividual ,
+                              <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-sobreenvejecimiento
+:indice-de-sobreenvejecimiento rdf:type owl:NamedIndividual ,
+                                        <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-tendencia
+:indice-de-tendencia rdf:type owl:NamedIndividual ,
+                              <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas
+:numero-personas rdf:type owl:NamedIndividual ,
+                          <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-adulta
+:porcentaje-de-poblacion-adulta rdf:type owl:NamedIndividual ,
+                                         <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta
+:porcentaje-de-poblacion-analfabeta rdf:type owl:NamedIndividual ,
+                                             <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-envejecida
+:porcentaje-de-poblacion-envejecida rdf:type owl:NamedIndividual ,
+                                             <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-extranjera
+:porcentaje-de-poblacion-extranjera rdf:type owl:NamedIndividual ,
+                                             <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-infantil-extranjera
+:porcentaje-de-poblacion-infantil-extranjera rdf:type owl:NamedIndividual ,
+                                                      <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-joven
+:porcentaje-de-poblacion-joven rdf:type owl:NamedIndividual ,
+                                        <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero
+:porcentaje-de-poblacion-nacida-en-el-extranjero rdf:type owl:NamedIndividual ,
+                                                          <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-mortalidad
+:tasa-de-mortalidad rdf:type owl:NamedIndividual ,
+                             <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#tasa-de-natalidad
+:tasa-de-natalidad rdf:type owl:NamedIndividual ,
+                            <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:edad-media-de-la-poblacion rdfs:comment "Edad media de la población."@es ,
+                                         "Median age of the population."@en ;
+                            rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                            rdfs:label "Edad media de la población"@es ,
+                                       "Median age"@en .
+
+
+:indice-de-dependencia rdfs:comment "People under 20 and 65 years and over for every 100 inhabitants aged 20 to 64."@en ,
+                                    "Personas menores de 20 y de 65 y más años por cada 100 habitantes de 20 a 64 años."@es ;
+                       rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                       rdfs:label "Dependency index"@en ,
+                                  "Índice de dependencia"@es .
+
+
+:indice-de-feminidad rdfs:comment "Proporción de mujeres frente al número de hombres de la población. Se calcula mediante la fórmula: (número de mujeres / número de hombres) * 100"@es ,
+                                  "Proportion of women versus the number of men in the population. It is calculated by formula: (number of women / number of men) * 100"@en ;
+                     rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                     rdfs:label "Feminity index"@en ,
+                                "Índice de feminidad"@es .
+
+
+:indice-de-infancia rdfs:comment "Proporción de población menor de 15 años frente a la población total. Se calcula mediante la fórmula: (población menor de 15 años / población total) * 100."@es ,
+                                 "Proportion of population under 15 years compared to the total population. It is calculated by formula: (population under 15 years / total population) * 100"@en ;
+                    rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                    rdfs:label "Childhood index"@en ,
+                               "Índice de infancia"@es .
+
+
+:indice-de-juventud rdfs:comment "Proporción de gente joven de entre la población envejecida. Se calcula mediante la fórmula: (población menor de 15 años / población mayor de 64 años) x 100"@es ,
+                                 "Proportion of young people from the aged population. It is calculated by formula: (population under 15 years / population over 64 years) x 100"@en ;
+                    rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                    rdfs:label "Youth index"@en ,
+                               "Índice de juventud"@es .
+
+
+:indice-de-maternidad rdfs:comment "People aged 0 to 4 years per 1.000 women aged 15 to 49 years."@en ,
+                                   "Personas de 0 a 4 años por cada 1.000 mujeres de 15 a 49 años."@es ;
+                      rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                      rdfs:label "Maternity index"@en ,
+                                 "Índice de maternidad"@es .
+
+
+:indice-de-poblacion-activa rdfs:comment "Proporción entre la población de 15 a 39 años y la población de 40 a 64 años."@es ,
+                                         "Proportion between population aged 15 to 39 and the population aged 40 to 64."@en ;
+                            rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                            rdfs:label "Active population index"@en ,
+                                       "Índice de población activa"@es .
+
+
+:indice-de-reemplazo rdfs:comment "Replacement rate of the population of potentially active age. Corresponds to the percentage of people aged 20 to 29 over the total number of people aged 55 to 64."@en ,
+                                  "Índice de reemplazo de la población en edad potencialmente activa. Corresponde al porcentaje de personas de 20 a 29 años sobre el total de personas de 55 a 64 años."@es ;
+                     rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                     rdfs:label "Replacement index"@en ,
+                                "Índice de reemplazo"@es .
+
+
+:indice-de-sobreenvejecimiento rdfs:comment "Proporción entre la población de 85 y más años y la población de 65 y más años."@es ,
+                                            "Proportion between the population of 85 years and over and the population of 65 years and over."@en ;
+                               rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                               rdfs:label "Over aging index"@en ,
+                                          "Índice de sobreenvejecimiento"@es .
+
+
+:indice-de-tendencia rdfs:comment "Es un indicador de la dinámica demográfica. En la medida en que presente valores inferiores a cien estará reflejando descenso de la natalidad, menor crecimiento demográfico y envejecimiento. Se calcula mediante la fórmula: (población de 0 y 4 años / población de 5 y 9 años) * 100"@es ,
+                                  "It is an indicator of demographic dynamics. If it presents values below one hundred, it will be reflecting decrease in birth rate, lower population growth and aging. It is calculated by the formula: (population of 0 and 4 years / population of 5 and 9 years) * 100"@en ;
+                     rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                     rdfs:label "Trend index"@en ,
+                                "Índice de tendencia"@es .
+
+
+:numero-personas rdfs:comment "Number of people"@en ,
+                              "Número de personas"@es ;
+                 rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                 rdfs:label "Number of people"@en ,
+                            "Número de personas"@es .
+
+
+:porcentaje-de-poblacion-adulta rdfs:comment "Percentage of population between 25 and 64 years."@en ,
+                                             "Porcentaje de población de entre 25 a 64 años"@es ;
+                                rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                                rdfs:label "Percentage of adult population"@en ,
+                                           "Porcentaje de población adulta"@es .
+
+
+:porcentaje-de-poblacion-analfabeta rdfs:comment "Percentage of illiterate population, or without basic studies or primary."@en ,
+                                                 "Porcentaje de población analfabeta, o sin estudios básicos o primarios."@es ;
+                                    rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                                    rdfs:label "Percentage of illiterate population"@en ,
+                                               "Porcentaje de población analfabeta"@es .
+
+
+:porcentaje-de-poblacion-envejecida rdfs:comment "Percentage of population of 65 years and over."@en ,
+                                                 "Porcentaje de población de 65 y más años."@es ;
+                                    rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                                    rdfs:label "Percentage of aging population"@en ,
+                                               "Porcentaje de población envejecida"@es .
+
+
+:porcentaje-de-poblacion-extranjera rdfs:comment "Percentage of foreign nationality population over the total population."@en ,
+                                                 "Porcentaje entre la población con nacionalidad extranjera con respecto al total de la población."@es ;
+                                    rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                                    rdfs:label "Percentage of foreign  nationality population"@en ,
+                                               "Porcentaje de población de nacionalidad extranjera"@es .
+
+
+:porcentaje-de-poblacion-infantil-extranjera rdfs:comment "Percentage of foreign population under 15 years."@en ,
+                                                          "Porcentaje de población extranjera menor de 15 años."@es ;
+                                             rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                                             rdfs:label "Percentage of foreign child population"@en ,
+                                                        "Porcentaje de población infantil extranjera"@es .
+
+
+:porcentaje-de-poblacion-joven rdfs:comment "Percentage of population under 25 years."@en ,
+                                            "Porcentaje de población menor de 25 años."@es ;
+                               rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                               rdfs:label "Percentaje of young population"@en ,
+                                          "Porcentaje de población joven"@es .
+
+
+:porcentaje-de-poblacion-nacida-en-el-extranjero rdfs:comment "Percentage of population born abroad over the total population."@en ,
+                                                              "Porcentaje de población de nacida en el extranjero sobre el total de población"@es ;
+                                                 rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                                                 rdfs:label "Percentage of population born abroad"@en ,
+                                                            "Porcentaje de población nacida en el extranjero"@es .
+
+
+:tasa-de-mortalidad rdfs:comment "Deaths per 1.000 inhabitants."@en ,
+                                 "Defunciones por cada 1.000 habitantes."@es ;
+                    rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                    rdfs:label "Mortality rate"@en ,
+                               "Tasa de mortalidad"@es .
+
+
+:tasa-de-natalidad rdfs:comment "Births per 1.000 inhabitants."@en ,
+                                "Nacimientos por cada 1.000 habitantes."@es ;
+                   rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
+                   rdfs:label "Birth rate"@en ,
+                              "Tasa de natalidad"@es .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

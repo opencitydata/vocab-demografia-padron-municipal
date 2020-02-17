@@ -5,14 +5,14 @@
   organizations. SDMX is a [ISO International Standard IS-17369](<https://sdmx.org>), that is sustained in concepts of dimensions, attributes and measurements described as a data structure.
 </span>
 
-<center><img src="https://www.w3.org/TR/vocab-data-cube/images/qb-fig1.png"><figcaption>Figura 1.- Diagrama del vocabulario W3C Data Cube.</figcaption></center>
+<center><img src="https://www.w3.org/TR/vocab-data-cube/images/qb-fig1.png"><figcaption>Figure 1.- Diagram of the W3C Data Cube vocabulary.</figcaption></center>
 
 <span class="markdown">
   Figure 1 shows that W3C Data Cube contains some concepts and properties that enable the description of data for different levels of aggregation. However, with the aim of facilitating the explanation of the concepts and properties used to represent the data cubes of the census of inhabitants, the extract of Figure 2 will be used. To simplify, blank nodes are used to make reference to the different instances of
   [ComponentSpecification](https://www.w3.org/TR/vocab-data-cube/#dfn-qb-componentspecification) that must be generated to describe each measurement or dimension.
 </span>
 
-<center><img src="resources/images/CuboDatosExtracto.png"><figcaption>Figura 2.- Extracto del vocabulario W3C Data Cube.</figcaption></center>
+<center><img src="resources/images/CuboDatosExtracto.png"><figcaption>Figure 2.- Extract of the W3C Data Cube vocabulary.</figcaption></center>
 
 <span class="markdown">
 Specifically, data cubes are composed of some dimensions and measures that allow the definition of different observations. In Figure 2, the vocabulary, represented by the prefix qb, is organized around the concept [qb:DataSet](https://www.w3.org/TR/vocab-data-cube/#reference-datasets). This concept is defined as a recopilation of data correspondent to another structure defined by [qb:DataStructureDefinition](https://www.w3.org/TR/vocab-data-cube/#dsd) and that is materialized through a set of observations  reprsented by [qb:Observation](https://www.w3.org/TR/vocab-data-cube/#reference-datasets). The dimensions and measures that can be defined in each dataset's structure are represented by:
@@ -62,7 +62,7 @@ With all the needed vocabularies for the representation of the requirements, the
 </div>
 
 <center>
-  <img src="resources/images/CuboDatosEdad.png"><figcaption>Figura 3.- Cubo de datos de población según edad.</figcaption>
+  <img src="resources/images/CuboDatosEdad.png"><figcaption>Figure 3.- Population data cube by age.</figcaption>
 </center>
 <div id="cubosderangosedad">
 <h3 id="qb2" class="list">Population cube by five-year age groups<span class="backlink"> back to <a href="#toc">ToC</a></h3>
@@ -72,7 +72,7 @@ With all the needed vocabularies for the representation of the requirements, the
 </div>
 
 <center>
-  <img src="resources/images/CuboDatosEdadRangosQuinquenales.png"><figcaption>Figura 4.- Cubo de datos de población según edad por grupos quinquenales.</figcaption>
+  <img src="resources/images/CuboDatosEdadRangosQuinquenales.png"><figcaption>Figure 4.- Population data cube by five-year age groups.</figcaption>
 </center>
 
 <div id="cubosdenacionalidad">
@@ -82,61 +82,60 @@ With all the needed vocabularies for the representation of the requirements, the
 
   The general measure is defined as the number of people, since it gathers data related to total foreign population, total foreign population by sex, total spanish population, total community foreign population and total non-community foreign population.
 </span>
-  <center><img src="resources/images/CuboDatosNacionalidad.png"><figcaption>Figura 5.- Cubo de datos de población según nacionalidad.</figcaption></center>
+  <center><img src="resources/images/CuboDatosNacionalidad.png"><figcaption>Figura 5.- Population data cube by nationality.</figcaption></center>
 </div>
 <div id="cubosdeestudios">
   <h3 id="qb4" class="list">Population cube by level of education<span class="backlink"> back to <a href="#toc">ToC</a></h3>
 <span class="markdown">
   In this cube there is represented data related to the inhabitants' level of studies. Specifically, the defined dimensions are reference period, reference area, sex, simple age and level of education. The general measure is defined as the number of people to gather values related to total population by level of education and sex, and total population by level of studies, age and sex in the reference area X and period Y.
 </span>
-  <center><img src="resources/images/CuboDatosEstudios.png"><figcaption>Figura 6.- Cubo de datos de población según nivel de estudios.</figcaption></center>
+  <center><img src="resources/images/CuboDatosEstudios.png"><figcaption>Figura 6.- Population data cube by level of education.</figcaption></center>
 </div>
 <div id="cubosdeprocedencia">
   <h3 id="qb5" class="list">Population cube by place of provenance<span class="backlink"> back to <a href="#toc">ToC</a></h3>
   <span class="markdown">
   In this cube there is represented data related to the inhabitants' place of provenance. Specifically, the defined dimensions are reference period, area, level of education, five-year age groups, town of provenance and country of provenance. It is important to mention that the properties [town](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia), [province](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia), and [country](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia) of provenance have been reused from the developed vocabulary to represent raw data of the exchanged files of census of inhabitants. Finally, the general measure is defined as the number of people, since it gathers data related to total population by country of provenance of area X, province of provenance of area X, town of provenance of area X, country of provenance and level of education by age ranges of the inhabitants of area X, province of provenance and level of education by age ranges of the inhabitants of area X, and town of provenance and level of education by age ranges of the inhabitants of area X.
   </span>
-  <center><img src="resources/images/CuboDatosProcedencia.png"><figcaption>Figura 7.- Cubo de datos de población según lugar de procedencia.</figcaption></center>
+  <center><img src="resources/images/CuboDatosProcedencia.png"><figcaption>Figura 7.- Population data cube by place of provenance.</figcaption></center>
 </div>
 <div id="cubosdepaisnacimiento">
   <h3 id="qb6" class="list">Population cube by country of birth<span class="backlink"> back to <a href="#toc">ToC</a></h3>
   <span class="markdown">
   In this cube there is represented data related to the inhabitants' country of birth. Specifically, the defined dimensions are sex, reference period, reference area, five-year age groups and country of birth. It is important to mention that the property [paisNacimiento](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento) has been reused from the developed vocabulary to represent raw data of the exchanged files of census of inhabitants. The general measure is defined as the the number of people, since it gathers data related to total population that was born outside Spain, total population by country of birth and sex, and total population by country of birth.
 </span>
-  <center><img src="resources/images/CuboDatosPaisNacimiento.png"><figcaption>Figura 8.- Figura 8.- Cubo de datos de población según país de nacimiento.</figcaption></center>
+  <center><img src="resources/images/CuboDatosPaisNacimiento.png"><figcaption>Figura 8.- Figura 8.- Population data cube by country of birth.</figcaption></center>
 </div>
 <div id="cubosdeindicadores">
-  <h3 id="qb7" class="list">Cube of demografic structure indicators<span class="backlink"> back to <a href="#toc">ToC</a></h3>
+  <h3 id="qb7" class="list">Cube of demographic structure indicators<span class="backlink"> back to <a href="#toc">ToC</a></h3>
   <span class="markdown">
   In this cube there is represented data related to indexes calculated from data of census of inhabitants. The defined dimensions are reference period and area in which the values of the mentioned indexes are calculated. The measures associated to this cube are specifically designed for each index. Thus we obtain the dependency index, feminity index, infancy index, youth index, maternity index, active poopulation index, replacement index, over aging index, tendency index, mortality index, natality index, average age of the population, percentage of the population born abroad (porcentaje-de-población-extranjera), percentage of young population, percentage of adult population, percentage of aged population, and percentage of foreign child population. Finally, and following the generalization described in other cubes, the measure is also defined as the number of people to gather the values of total population, number of population growth, and total population in a range of years.
 </span>
-  <center><img src="resources/images/CuboDatosIndicadores.png"><figcaption>Figura 9.- Cubo de datos de indicadores de estructura demográfica.</figcaption></center>
+  <center><img src="resources/images/CuboDatosIndicadores.png"><figcaption>Figura 9.- Population data cube by demographic structure indicators.</figcaption></center>
 </div>
 
-<h2 id="exa" class="list">Ejemplos de los Cubos de Datos de Padrón Municipal <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<h2 id="exa" class="list">Examples of the data cubes of census of inhabitants<span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-A continuación, se presentan un par de ejemplos en los que se describen datos de la población según la estructura de los cubos definidos previamente.</span>
+This section presents a couple of examples where the population data is described by the structure of the cubes previously defined.</span>
 
 <div id="example1">
-  <h3 id="exz1" class="list">Ejemplo 1: Población según área, sexo y rango de edad.</h3>
+  <h3 id="exz1" class="list">Example 1: Population by area, sex and age range</h3>
 <span class="markdown">
-  En este ejemplo se representan lo datos del total de población de la ciudad de Madrid según el área, rangos de edad, y sexo. En la Figura 10 se presenta el diagrama correspondiente a la representación de estos datos de acuerdo al cubo de datos de población según edad.
-
+  This example represents the total population data from Madrid by area, age range and sex. Figure 10 shows the diagram correspondent to the mentioned data according to the population data cube by age.
 </span>
 
-  <center><img src="resources/images/EjemploCuboDatosPoblacion-RangoEdades-Sexo-AreaResidencia.jpg"><figcaption>Figura 10.- Ejemplo de población total según rango de edad, sexo y área de residencia.</figcaption></center>
+  <center><img src="resources/images/EjemploCuboDatosPoblacion-RangoEdades-Sexo-AreaResidencia.jpg"><figcaption>Figure 10.- Example of total population by age range, sex and residence area.</figcaption></center>
 
 <span class="markdown">
-  A continuación, teniendo en cuenta este diagrama, se enumeran los pasos necesarios para crear las instancias correspondientes con los datos asociados a este ejemplo.
+  Having in mind the diagram shown in Figure 10, we define below the necessary steps to create the instances belonging to the data associated to this example.
 
-  1) Definición del conjunto o cubo de datos: Se genera una instancia de [qb:Dataset](http://purl.org/linked-data/cube#DataSet) que representará el conjunto de datos del ejemplo. Luego, se enlaza este conjunto, mediante la propiedad [qb:structure](http://purl.org/linked-data/cube#structure), con la instancia de la estructura de datos que se define en el paso 2.
+  1) Definition of the dataset or data cube: An instance of [qb:Dataset](http://purl.org/linked-data/cube#DataSet) is generated, and will represent the example dataset. Later, this set is linked, through the [qb:structure](http://purl.org/linked-data/cube#structure) property, with the instance of the data structure defined in the second step.
 </span>
   <pre>
 &lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DS_PoblacionPorEdadGruposQuinquenales&gt; a qb:DataSet ;
 qb:structure &lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; .
   </pre>
 <span class="markdown">
-2) Definición de la estructura de datos: En este paso se especifican las dimensiones y medidas que encapsula el cubo de población según grupos quinquenales. Para esto se crea una instancia de [qb:DataStructureDefinition](http://purl.org/linked-data/cube#DataStructureDefinition) con sus metadatos asociados. Es importante mencionar que esta estructura ya viene definida en las instancias que contiene este vocabulario. Dichas instancias son de tipo [ComponentSpecification](https://www.w3.org/TR/vocab-data-cube/#dfn-qb-componentspecification) y se generan para representar cada dimensión o medida. Sin embargo, se presenta el ejemplo de cómo también se puede generar con nodos en blanco en lugar de instancias de ComponentSpecification.
+  2) Definition of the data structure: In this step we specify the dimensions and measures which gather the population cube by five-year age groups. For this purpose, an instance of [qb:DataStructureDefinition](http://purl.org/linked-data/cube#DataStructureDefinition) is created, with its metadata associated. It is important to mention that this structure is previously defined in the instances contained in this vocabulary. These instances are of type [ComponentSpecification](https://www.w3.org/TR/vocab-data-cube/#dfn-qb-componentspecification) and are generated to represent each dimension or measure. However, the example shows how they can be also generated with blank nodes instead of instances of ComponentSpecification.
 </span>
 <pre>
 &lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; a qb:DataStructureDefinition ;
@@ -145,7 +144,7 @@ Madrid, en este archivo se detalla el número de habitantes según su sexo, rang
 skos:notation "DSD_PoblacionPorEdad" .
   </pre>
 <span class="markdown">
-Posteriormente, se definen las dimensiones que tiene la estructura de datos del cubo. Para lo cual se enlaza, mediante la propiedad [qb:component](http://purl.org/linked-data/cube#component), la estructura de datos definida previamente con el nodo en blanco correspondiente. A continuación, se enlaza el mismo nodo en blanco, mediante la propiedad [qb:dimension](http://purl.org/linked-data/cube#dimension), con el concepto concreto del vocabulario que representa la dimensión que se está representando. En el caso del ejemplo, se especifican como dimensiones: sexo, área de referencia, periodo de referencia, y la edad por grupos quinquenales.
+Thereafter, the dimensions of the data cube structure are defined. For this purpose, the property [qb:component](http://purl.org/linked-data/cube#component) is used to link the data structure previously defined with the correspondent blank node. Then, the same blank node is linked with the property [qb:dimension](http://purl.org/linked-data/cube#dimension) to the concept of the vocabulary that represents the dimensions that is being represented. In the example, the specified dimensions are: sex, reference area, reference period and five-year age groups.
 </span>
 <pre>
 &lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; qb:component _:node1egmfx1 .
@@ -161,15 +160,14 @@ _:node1egmfx3 qb:dimension sdmx-dimension:refPeriod .
 _:node1egmfx4 qb:dimension iaest-dimension:edad-grupos-quinquenales.
 </pre>
 <span class="markdown">
-De igual forma, se definen las medidas de la estructura de datos. Para ello, se enlaza, mediante la propiedad [qb:component](http://purl.org/linked-data/cube#component), la estructura de datos con el nodo en blanco correspondiente. A continuación, se enlaza el mismo nodo en blanco, mediante la propiedad [qb:measure](http://purl.org/linked-data/cube#measure), con el concepto concreto del vocabulario que representa la medida que se está representando. En el caso del ejemplo, la medida que se especifica es el número de personas.
+  Likewise, the measures of the data structure are defined. For this reason, the property [qb:component](http://purl.org/linked-data/cube#component) is used to link the data structure with the correspondent blank node. Then, the same node blank is linked with the property [qb:measure](http://purl.org/linked-data/cube#measure) to the concept of the vocabulary that represents the measure that is being represented. In the example, the specified measure is the number of people.
 </span>
 <pre>
   &lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPoblacionPorEdadGruposQuinquenales&gt; qb:component _:node1egmfx5 .
 _:node1egmfx5 qb:measure espad-measure:numero-personas.
 </pre>
 <span class="markdown">
-3) Definición de una observación del Dataset: El paso final consiste en la representación de las observaciones. Para ello, se crea un instancia de [qb:Observation](http://purl.org/linked-data/cube#Observation) para cada dato que se va a representar. Así también, se enlaza, mediante la propiedad [qb:dataSet](http://purl.org/linked-data/cube#dataSet), la observación con el conjunto de datos al que correponde.
-Adicionalmente, se instancian las dimensiones y medidas que se describen en la observación. Para ello se emplean las propiedades definidas en la estructura de datos, descritas en el paso 2. Cada una de estas dimensiones y medidas estan enlazadas con los valores correspondientes (instancias de las listas de códigos o conceptos según sea el caso).
+  3) Definition of an observation of the dataset: The last step consists in the representation of the observations. For that purpose, an instance of [qb:Observation](http://purl.org/linked-data/cube#Observation) is created for each data that is to be represented. Moreover, the property [qb:dataSet](http://purl.org/linked-data/cube#dataSet) is used to link the observation to the correspondent dataset. The dimensions and measures described in the observation can also be instantiated. For that aim, the properties defined in the data structure (step 2) are used. Each one of the dimensions and measures are linked with the correspondent values (instances of the code lists or concepts, according to the case).
 </span>
 <pre>
 &lt;http://vocab.ciudadesabiertas.es/recurso/demografia/padron-muinicipal/a209fd32c10cf5d06e4e6aedf8b81950b4e981f3&gt; a qb:Observation ;
@@ -182,24 +180,27 @@ iaest-dimension:edad-grupos-quinquenales &lt;https://opendata.aragon.es/kos/iaes
 </pre>
 
   <div id="example2">
-    <h3 id="exz2" class="list">Ejemplo 2: Índice de juventud</h3>
+    <h3 id="exz2" class="list">Example 2: Youth index</h3>
 <span class="markdown">
-En este ejemplo se representan aquellos datos relacionados con el índice de juventud que se registra en la población de Madrid. Las instancias se crean de la misma manera que para el Ejemplo 1.  En la Figura 11 se presenta el diagrama correspondiente al índice de juventud de los años 2018 y 2019 en el distrito Centro. Estos datos son representados por dos observaciones en las que se especifican los valores concretos de las dimensiones y la medida para este caso.
+  This example shows data related to the youth index registered in the population of Madrid. The instances are created the same manner as in Example 1. Figure 11 depicts the diagram correspondent to the youth index in 2018 and 2019 in the district "Centro". This data is represented by two observations that specify the values of the dimensions and measures for this case.
 </span>
-    <center><img src="resources/images/EjemploCuboDatosIndice_De_Juventud.png"><figcaption>Figura 11.- Ejemplo de población total según rango de edad, sexo y área de residencia.</figcaption></center>
+    <center><img src="resources/images/EjemploCuboDatosIndice_De_Juventud.png"><figcaption>Figure 11.- Example of total population by age range, sex and residence area.</figcaption></center>
 
-<span class="markdown"> Finalmente, se han generado varios [ejemplos de consultas](https://github.com/CiudadesAbiertas/vocab-demografia-padron-municipal/blob/master/examples/queries-cubos-datos.md) que se pueden ejecutar para extraer los datos representados con cada uno de los cubos descritos en el presente documento.</span>
-
-<h2 id="conf" class="list">Confidencialidad <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-Teniendo en cuenta la [política de confidencialidad](https://www.ine.es/dynt3/metadatos/es/RespuestaDatos.htm?oe=30243) adoptada por el INE para el tratamiento de los datos del censo de población y viviendas, los ayuntamientos han acordado seguir los mismos lineamientos para el caso de los datos del padrón municipal. Por lo tanto, los ayuntamientos no difundirán, ni harán disponibles de ninguna manera, datos individuales o agregados que pudieran llevar a la identificación de datos previamente no conocidos para una persona o entidad.
+  Finally, some [query examples](https://github.com/CiudadesAbiertas/vocab-demografia-padron-municipal/blob/master/examples/queries-cubos-datos.md) have been generated, and can be executed to extract the data represented for each one of the cubes in the present document.
+</span>
 
-En relación al tratamiento de datos confidenciales los ayuntamientos seguirán los siguientes lineamientos:
+<h2 id="conf" class="list">Confidentiality <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+  Taking into account the [confidentiality politics](https://www.ine.es/dynt3/metadatos/es/RespuestaDatos.htm?oe=30243) adopted by the National Institute of Statistics (INE) for the treatment of data from census of population and households, city councils have agreed to follow the same guidelines for the case of data of census of inhabitants. Therefore, city councils won't disseminate and won't make available in any way individual data or aggregates that could lead to identification of data previously not known for a person or an identity.
+
+  In relation to the treatment of confidential data, city counils will follow the following guidelines:
+
 </span>
 <ul>
-  <li>En las fases de tratamiento de la información los datos que permiten la identificación directa solo se conservan mientras son estrictamente necesarios para garantizar la calidad de los procesos.</li>
- <li>En la publicación de las tablas de resultados se analiza el detalle de la información para evitar que puedan deducirse datos confidenciales de las unidades estadísticas. En los casos en que se difunden ficheros de microdatos, éstos siempre están anonimizados.</li>
- <li>Por lo que se refiere a los datos se aplicarán técnicas de confidencialidad de la información como data swapping o redondeo a 5. Además, para que se pueda difundir una información es necesario que el número de observaciones implicadas entre el número de celdas sea superior a un determinado umbral.
+  <li>In the phases of information treatment, data that allow the direct identification woll only conserved while are strictly necessary to guarantee the process' quality.</li>
+ <li>In the publication of result tables, the information is analyzed in detail to avoid the deduction of confidential data form statistical units. In the cases in which the microdata are disseminated, these will always be anonymized.</li>
+ <li>Regarding the data, data confidentiality techniques, such as data swapping or rounding to 5, will be applied. Moreover, to allow the information dissemination is necessary that the number of involved observations divided by the number of cells must be superior to a predefined threshold.
 </ul>
 
 

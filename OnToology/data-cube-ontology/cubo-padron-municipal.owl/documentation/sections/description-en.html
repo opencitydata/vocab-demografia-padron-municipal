@@ -1,25 +1,25 @@
 <html>
 <h2 id="desc" class="list">Vocabulary for data cubes representation of census of inhabitants: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-  For the generation of the data cubes of census of inhabitants, the vocabulary [W3C Data Cube](<https://www.w3.org/TR/vocab-data-cube>) is reused. This vocabulary is a recommendation for multidimensional data plublication, since it enables its linking with related data and concepts. Likewise, this vocabulary is compatible with the SDMX standard (Statistical Data and Metadata eXchange). It enables sharing and exchanging statistical data and metadata between
-  organizations. SDMX is a [ISO International Standard IS-17369](<https://sdmx.org>), that is sustained in concepts of dimensions, attributes and measurements described as a data structure.
+  For the generation of the data cubes of census of inhabitants, the vocabulary [W3C Data Cube](<https://www.w3.org/TR/vocab-data-cube>) vocabulary is reused. This vocabulary is a recommendation for multidimensional data plublication, since it enables its linking with related data and concepts. Likewise, this vocabulary is compatible with the SDMX (Statistical Data and Metadata eXchange) standard, which allows sharing and exchanging statistical data and metadata between
+  organizations. SDMX is a [ISO International Standard IS-17369](<https://sdmx.org>) that is sustained in concepts of dimensions, attributes and measures described as a data structure.
 </span>
 
 <center><img src="https://www.w3.org/TR/vocab-data-cube/images/qb-fig1.png"><figcaption>Figure 1.- Diagram of the W3C Data Cube vocabulary.</figcaption></center>
 
 <span class="markdown">
   Figure 1 shows that W3C Data Cube contains some concepts and properties that enable the description of data for different levels of aggregation. However, with the aim of facilitating the explanation of the concepts and properties used to represent the data cubes of the census of inhabitants, the extract of Figure 2 will be used. To simplify, blank nodes are used to make reference to the different instances of
-  [ComponentSpecification](https://www.w3.org/TR/vocab-data-cube/#dfn-qb-componentspecification) that must be generated to describe each measurement or dimension.
+  [ComponentSpecification](https://www.w3.org/TR/vocab-data-cube/#dfn-qb-componentspecification) that must be generated to describe each measure or dimension.
 </span>
 
 <center><img src="resources/images/CuboDatosExtracto.png"><figcaption>Figure 2.- Extract of the W3C Data Cube vocabulary.</figcaption></center>
 
 <span class="markdown">
-Specifically, data cubes are composed of some dimensions and measures that allow the definition of different observations. In Figure 2, the vocabulary, represented by the prefix qb, is organized around the concept [qb:DataSet](https://www.w3.org/TR/vocab-data-cube/#reference-datasets). This concept is defined as a recopilation of data correspondent to another structure defined by [qb:DataStructureDefinition](https://www.w3.org/TR/vocab-data-cube/#dsd) and that is materialized through a set of observations  reprsented by [qb:Observation](https://www.w3.org/TR/vocab-data-cube/#reference-datasets). The dimensions and measures that can be defined in each dataset's structure are represented by:
+Specifically, data cubes are composed of some dimensions and measures that allow the definition of different observations. In Figure 2, the vocabulary, represented by the prefix qb, is organized around the concept [qb:DataSet](https://www.w3.org/TR/vocab-data-cube/#reference-datasets). This concept is defined as a recopilation of data correspondent to another structure defined by [qb:DataStructureDefinition](https://www.w3.org/TR/vocab-data-cube/#dsd) and that is materialized through a set of observations  represented by [qb:Observation](https://www.w3.org/TR/vocab-data-cube/#reference-datasets). The dimensions and measures that can be defined in each dataset's structure are represented by:
 </span>
 <ul>
- <li><a href="https://www.w3.org/TR/vocab-data-cube/#dsd-dimensions">qb:DimensionProperty</a>: component that identifies the dimensions of the observations, whether it is with regard to sex, age, time, geographic region, level of education, etc. Dimensions often represent concepts taken by code lists, also known as classifications, that are usually identified with the use of the SKOS vocabulary.</li>
- <li><a href="https://www.w3.org/TR/vocab-data-cube/#dsd-dimensions">qp:MeasurementProperty</a>: component that represents the measured value of the observed data, such as population density, youth index, adult population percentage, number of foreigners, etc. </li>
+ <li><a href="https://www.w3.org/TR/vocab-data-cube/#dsd-dimensions">qb:DimensionProperty</a>: Component that identifies the dimensions of the observations, whether it is with regard to sex, age, time, geographic region, level of education, etc. Dimensions often represent concepts, which taken by code lists, also known as classifications, that are usually identified with the use of the SKOS vocabulary.</li>
+ <li><a href="https://www.w3.org/TR/vocab-data-cube/#dsd-dimensions">qp:MeasurementProperty</a>: Component that represents the measured value of the observed data, such as population density, youth index, percentage of adult population, number of foreigners, etc. </li>
 </ul>
 
 <span>
@@ -28,30 +28,27 @@ For the definition of these dimensions and measures, some other reference vocabu
 <ol>
  <li>SDMX vocabularies (Statistical Data and Metadata eXchange):</li>
  <ul>
-   <li><a href="http://purl.org/linked-data/sdmx/2009/dimension">sdmx-dimension</a>: For the definition of dimensions such as reference area, reference priod, simple age, sex and level of education.</li>
+   <li><a href="http://purl.org/linked-data/sdmx/2009/dimension">sdmx-dimension</a>: For the definition of dimensions such as reference area, reference period, simple age, sex and level of education.</li>
    <li><a href="http://purl.org/linked-data/sdmx/2009/code">sdmx-code</a>: For the definition of concept lists to represent the sex of the inhabitants.</li>
  </ul>
  <li>IAEST vocabularies:</li>
     <ul>
-      <li><a href="https://opendata.aragon.es/def/iaest/dimension">iaest-dimension</a>: For the definition of dimensions such as <a href="https://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales">five-year age groups</a> y <a href="http://opendata.aragon.es/def/iaest/dimension#nacionalidad">nationality</a>.</li>
-      <li>SKOS IAEST: For the definition of concept lists of <a href="https://opendata.aragon.es/kos/iaest/edad-grupos-quinquenales">five-year age groupss</a> and <a href="https://opendata.aragon.es/kos/iaest/nacionalidad">nationality</a>.</li>
+      <li><a href="https://opendata.aragon.es/def/iaest/dimension">iaest-dimension</a>: For the definition of dimensions such as <a href="https://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales">five-year age groups</a> and <a href="http://opendata.aragon.es/def/iaest/dimension#nacionalidad">nationality</a>.</li>
+      <li>SKOS IAEST: For the definition of concept lists of <a href="https://opendata.aragon.es/kos/iaest/edad-grupos-quinquenales">five-year age groups</a> and <a href="https://opendata.aragon.es/kos/iaest/nacionalidad">nationality</a>.</li>
     </ul>
  <li>Other SKOS lists:</li>
  <ul>
    <li>For the representation of the dimension's years of the reference period, the code list <a href="http://reference.data.gov.uk/id/year">time intervals</a> of the british government will be reused.</li>
-   <li>For the level of education the code list <a href="http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio">types of studies</a>, defined for the vocabulary of the census of inhabitants, will be reused.</li>
+   <li>For the level of education, the <a href="http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio">types of studies</a> code list, defined for the vocabulary of the census of inhabitants, will be reused.</li>
   <li>For the representation of simple ages (in other words, for each year of age), a new code list of <a href="http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad">age</a> has been generated.</li>
  </ul>
 </ol>
 </span>
 
 <span class="markdown">
-  While the abovementioned vocabularies are reused, it has been necessary the development of a vocabulary that enables the representation of measures related to the data and requirements of the vocabulary of the census of inhabitants ([espad-medida](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida)).
-</span>
+  While the abovementioned vocabularies are reused, it has been necessary to develop a vocabulary that enables the representation of measures related to the data and requirements of the vocabulary of the census of inhabitants ([espad-medida](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida)).
 
-<span class="markdown">
-With all the needed vocabularies for the representation of the requirements, the cubes that will be obtained for the data of Census of Inhabitants can be defined. it is important to mention that the requirements that will be represented are those responsible for the statistical exploitation of the census of inhabitants data. These requirements correspond to those defined as Competency Questions marked as accepted (A) and that are between Req-41 and Req-73 of the deliverable
-[Requirement Specification](https://github.com/CiudadesAbiertas/vocab-demografia-padron-municipal/requirements).
+  With all the needed vocabularies for the representation of the requirements, the cubes that will be obtained for the data of Census of Inhabitants can be defined. It is important to mention that the requirements that will be represented are those responsible for the statistical exploitation of the data of census of inhabitants. These requirements correspond to those defined as Competency Questions marked as accepted (A) and that are between Req-41 and Req-73 of the [Requirement Specification](https://github.com/CiudadesAbiertas/vocab-demografia-padron-municipal/requirements) deliverable.
 </span>
 
 <div id="cubosdeedad">
@@ -67,7 +64,7 @@ With all the needed vocabularies for the representation of the requirements, the
 <div id="cubosderangosedad">
 <h3 id="qb2" class="list">Population cube by five-year age groups<span class="backlink"> back to <a href="#toc">ToC</a></h3>
 <span class="markdown">
-  There is represented in this cube the data related to the inhabitant's age by five-year age groups. Specifically, the defined dimensions are sex, reference period, reference area and age ranges by five-year groups. The general measure is defined as the number of people, since it gathers data related to total population by age ranges, total population by sex, total population by age ranges and sex, total population by age ranges, sex and area.
+  In this cube there is represented data related to the inhabitant's age by five-year age groups. Specifically, the defined dimensions are sex, reference period, reference area and age ranges by five-year groups. The general measure is defined as the number of people, since it gathers data related to total population by age ranges, total population by sex, total population by age ranges and sex, total population by age ranges, sex and area.
 </span>
 </div>
 
@@ -78,7 +75,7 @@ With all the needed vocabularies for the representation of the requirements, the
 <div id="cubosdenacionalidad">
   <h3 id="qb3" class="list">Population cube by nationality<span class="backlink"> back to <a href="#toc">ToC</a></h3>
 <span class="markdown">
-  In this cube there is represented data related to the inhabitant's nationality. Specifically, the defined dimensions are sex, reference period, reference area, age ranges by five-year groups and nationality. In the dimension of natinality, the inhabitant's particularities can be specified, whether they are [spaniards](https://opendata.aragon.es/kos/iaest/nacionalidad/espanoles), [community foreigners](https://opendata.aragon.es/kos/iaest/nacionalidad/extranjeros-comunitarios-ue-27), or [non-community foreigners](https://opendata.aragon.es/kos/iaest/nacionalidad/extranjeros-no-comunitarios). For the case in which the United Kingdom has to be considered inside the European Community, it can be used the concept [extranjeros-comunitarios-ue-28](https://opendata.aragon.es/kos/iaest/nacionalidad/extranjeros-comunitarios-ue-28).
+  In this cube there is represented data related to the inhabitant's nationality. Specifically, the defined dimensions are sex, reference period, reference area, age ranges by five-year groups and nationality. In the dimension of nationality the inhabitant's particularities can be specified, whether they are [spaniards](https://opendata.aragon.es/kos/iaest/nacionalidad/espanoles), [community foreigners](https://opendata.aragon.es/kos/iaest/nacionalidad/extranjeros-comunitarios-ue-27), or [non-community foreigners](https://opendata.aragon.es/kos/iaest/nacionalidad/extranjeros-no-comunitarios). For the case in which the United Kingdom has to be considered inside the European Community, the concept [extranjeros-comunitarios-ue-28](https://opendata.aragon.es/kos/iaest/nacionalidad/extranjeros-comunitarios-ue-28) can be used.
 
   The general measure is defined as the number of people, since it gathers data related to total foreign population, total foreign population by sex, total spanish population, total community foreign population and total non-community foreign population.
 </span>
@@ -87,35 +84,35 @@ With all the needed vocabularies for the representation of the requirements, the
 <div id="cubosdeestudios">
   <h3 id="qb4" class="list">Population cube by level of education<span class="backlink"> back to <a href="#toc">ToC</a></h3>
 <span class="markdown">
-  In this cube there is represented data related to the inhabitants' level of studies. Specifically, the defined dimensions are reference period, reference area, sex, simple age and level of education. The general measure is defined as the number of people to gather values related to total population by level of education and sex, and total population by level of studies, age and sex in the reference area X and period Y.
+  In this cube there is represented data related to the inhabitants' level of studies. Specifically, the defined dimensions are reference period, reference area, sex, simple age and level of education. The general measure is defined as the number of people to gather values related to total population by level of education and age, and total population by level of studies, age and sex in the reference area X and period Y.
 </span>
   <center><img src="resources/images/CuboDatosEstudios.png"><figcaption>Figura 6.- Population data cube by level of education.</figcaption></center>
 </div>
 <div id="cubosdeprocedencia">
   <h3 id="qb5" class="list">Population cube by place of provenance<span class="backlink"> back to <a href="#toc">ToC</a></h3>
   <span class="markdown">
-  In this cube there is represented data related to the inhabitants' place of provenance. Specifically, the defined dimensions are reference period, area, level of education, five-year age groups, town of provenance and country of provenance. It is important to mention that the properties [town](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia), [province](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia), and [country](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia) of provenance have been reused from the developed vocabulary to represent raw data of the exchanged files of census of inhabitants. Finally, the general measure is defined as the number of people, since it gathers data related to total population by country of provenance of area X, province of provenance of area X, town of provenance of area X, country of provenance and level of education by age ranges of the inhabitants of area X, province of provenance and level of education by age ranges of the inhabitants of area X, and town of provenance and level of education by age ranges of the inhabitants of area X.
+  In this cube there is represented data related to the inhabitants' place of provenance. Specifically, the defined dimensions are reference period, area, level of education, five-year age groups, municipality of provenance and country of provenance. It is important to mention that the properties [municipality](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#municipioProcedencia), [province](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#provinciaProcedencia), and [country](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisProcedencia) of provenance have been reused from the developed vocabulary to represent raw data of the exchanged files of census of inhabitants. Finally, the general measure is defined as the number of people, since it gathers data related to total population by country of provenance of area X, province of provenance of area X, municipality of provenance of area X, country of provenance and level of education by age ranges of inhabitants of area X, province of provenance and level of education by age ranges of inhabitants of area X, and municipality of provenance and level of education by age ranges of inhabitants of area X.
   </span>
   <center><img src="resources/images/CuboDatosProcedencia.png"><figcaption>Figura 7.- Population data cube by place of provenance.</figcaption></center>
 </div>
 <div id="cubosdepaisnacimiento">
   <h3 id="qb6" class="list">Population cube by country of birth<span class="backlink"> back to <a href="#toc">ToC</a></h3>
   <span class="markdown">
-  In this cube there is represented data related to the inhabitants' country of birth. Specifically, the defined dimensions are sex, reference period, reference area, five-year age groups and country of birth. It is important to mention that the property [paisNacimiento](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento) has been reused from the developed vocabulary to represent raw data of the exchanged files of census of inhabitants. The general measure is defined as the the number of people, since it gathers data related to total population that was born outside Spain, total population by country of birth and sex, and total population by country of birth.
+  In this cube there is represented data related to the inhabitants' country of birth. Specifically, the defined dimensions are sex, reference period, reference area, five-year age groups and country of birth. It is important to mention that the [paisNacimiento](http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#paisNacimiento) property has been reused from the developed vocabulary to represent raw data of the exchanged files of census of inhabitants. The general measure is defined as the the number of people, since it gathers data related to total population that was born outside Spain, total population by country of birth and sex, and total population by country of birth.
 </span>
   <center><img src="resources/images/CuboDatosPaisNacimiento.png"><figcaption>Figura 8.- Figura 8.- Population data cube by country of birth.</figcaption></center>
 </div>
 <div id="cubosdeindicadores">
   <h3 id="qb7" class="list">Cube of demographic structure indicators<span class="backlink"> back to <a href="#toc">ToC</a></h3>
   <span class="markdown">
-  In this cube there is represented data related to indexes calculated from data of census of inhabitants. The defined dimensions are reference period and area in which the values of the mentioned indexes are calculated. The measures associated to this cube are specifically designed for each index. Thus we obtain the dependency index, feminity index, infancy index, youth index, maternity index, active poopulation index, replacement index, over aging index, tendency index, mortality index, natality index, average age of the population, percentage of the population born abroad (porcentaje-de-población-extranjera), percentage of young population, percentage of adult population, percentage of aged population, and percentage of foreign child population. Finally, and following the generalization described in other cubes, the measure is also defined as the number of people to gather the values of total population, number of population growth, and total population in a range of years.
+  In this cube there is represented data related to indexes calculated from data of census of inhabitants. The defined dimensions are reference period and area in which the values of the mentioned indexes are calculated. The measures associated to this cube are specifically designed for each index. Thus we obtain the dependency index, feminity index, infancy index, youth index, maternity index, active population index, replacement index, over aging index, tendency index, mortality index, natality index, average age of the population, percentage of the population born abroad (porcentaje-de-población-extranjera), percentage of young population, percentage of adult population, percentage of aged population, and percentage of foreign child population. Finally, and following the generalization described in other cubes, the measure is defined as the number of people to gather the values of total population, number of population growth, and total population in a range of years.
 </span>
   <center><img src="resources/images/CuboDatosIndicadores.png"><figcaption>Figura 9.- Population data cube by demographic structure indicators.</figcaption></center>
 </div>
 
 <h2 id="exa" class="list">Examples of the data cubes of census of inhabitants<span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-This section presents a couple of examples where the population data is described by the structure of the cubes previously defined.</span>
+This section contains a couple of examples where the population data is described by the cube structures previously defined.</span>
 
 <div id="example1">
   <h3 id="exz1" class="list">Example 1: Population by area, sex and age range</h3>
@@ -198,9 +195,9 @@ iaest-dimension:edad-grupos-quinquenales &lt;https://opendata.aragon.es/kos/iaes
 
 </span>
 <ul>
-  <li>In the phases of information treatment, data that allow the direct identification woll only conserved while are strictly necessary to guarantee the process' quality.</li>
+  <li>In the phases of information treatment, data that allow the direct identification will only conserved while are strictly necessary to guarantee the process' quality.</li>
  <li>In the publication of result tables, the information is analyzed in detail to avoid the deduction of confidential data form statistical units. In the cases in which the microdata are disseminated, these will always be anonymized.</li>
- <li>Regarding the data, data confidentiality techniques, such as data swapping or rounding to 5, will be applied. Moreover, to allow the information dissemination is necessary that the number of involved observations divided by the number of cells must be superior to a predefined threshold.
+ <li>Data confidentiality techniques, such as data swapping or rounding to 5, will be applied. Moreover, to allow the information dissemination it is necessary that the number of involved observations divided by the number of cells must be superior to a predefined threshold.
 </ul>
 
 

@@ -23,7 +23,9 @@
                                                                     <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)" ,
                                                                                                               "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" ;
                                                                     <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" ;
-                                                                    <http://purl.org/dc/terms/issued> "2019-04-29" ;
+                                                                    <http://purl.org/dc/terms/created> "2019-04-29" ;
+                                                                    <http://purl.org/dc/terms/hasFormat> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal.owl> ;
+                                                                    <http://purl.org/dc/terms/issued> "2020-02-04" ;
                                                                     <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> ;
                                                                     <http://purl.org/dc/terms/title> "Vocabulario para la representación de datos sobre el padrón de habitantes"@es ,
                                                                                                      "Vocabulary for the representation of the census of inhabitants."@en ;
@@ -51,12 +53,20 @@
 <http://purl.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/hasFormat
 <http://purl.org/dc/terms/hasFormat> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/hasVersion
+<http://purl.org/dc/terms/hasVersion> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/issued

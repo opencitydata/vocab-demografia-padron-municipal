@@ -24,14 +24,15 @@
                                                                                                                      "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" ;
                                                                            <http://purl.org/dc/elements/1.1/identifier> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> ;
                                                                            <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" ;
+                                                                           <http://purl.org/dc/terms/created> "2019-08-30" ;
                                                                            <http://purl.org/dc/terms/description> "Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal."@es ,
                                                                                                                   "Vocabulary for the representation of the data cube measures of the census of inhabitants."@en ;
                                                                            <http://purl.org/dc/terms/hasFormat> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida.owl> ;
-                                                                           <http://purl.org/dc/terms/issued> "2019-08-30"@es ;
+                                                                           <http://purl.org/dc/terms/issued> "2020-02-04" ;
                                                                            <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> ;
                                                                            <http://purl.org/dc/terms/title> "Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal."@es ,
                                                                                                             "Vocabulary for the representation of the data cube measures of the census of inhabitants."@en ;
-                                                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/espad-medida> ;
+                                                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "espad-medida" ;
                                                                            <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
                                                                            owl:versionInfo "1.0.0" .
 
@@ -53,6 +54,10 @@
 
 ###  http://purl.org/dc/elements/1.1/rights
 <http://purl.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/description

@@ -15,7 +15,9 @@
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" .
-<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/terms/issued> "2019-04-29" .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/terms/created> "2019-04-29" .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/terms/hasFormat> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal.owl> .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/terms/issued> "2020-02-04" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/terms/title> "Vocabulario para la representación de datos sobre el padrón de habitantes"@es .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/terms/title> "Vocabulary for the representation of the census of inhabitants."@en .
@@ -43,11 +45,17 @@
 # http://purl.org/dc/elements/1.1/rights
 <http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/hasFormat
 <http://purl.org/dc/terms/hasFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/hasVersion
+<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/issued
 <http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .

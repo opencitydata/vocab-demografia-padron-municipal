@@ -566,11 +566,11 @@
 }, {
   "@id" : "http://schema.org/address",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://schema.org"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#Habitante"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://schema.org"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -580,7 +580,7 @@
     "@value" : "Dirección"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal"
   } ]
 }, {
   "@id" : "http://schema.org/birthDate",
@@ -628,6 +628,10 @@
   "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@value" : "Antonio Bermejo Aguña - Ayuntamiento de Madrid"
+  }, {
+    "@value" : "Francisco Javier Catalina Celaya - Ayuntamiento de Madrid"
+  }, {
     "@value" : "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"
   }, {
     "@value" : "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"
@@ -640,11 +644,15 @@
   }, {
     "@value" : "Red.es"
   }, {
+    "@value" : "Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza"
+  }, {
     "@value" : "Servicio de Informática - Ayuntamiento de Santiago de Compostela"
   }, {
     "@value" : "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"
   }, {
     "@value" : "Víctor Morlán Plo - Ayuntamiento de Zaragoza"
+  }, {
+    "@value" : "Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza"
   } ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
     "@value" : "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"
@@ -1588,6 +1596,19 @@
     "@id" : "_:genid13"
   } ]
 }, {
+  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dirección Postal"
+  }, {
+    "@language" : "en",
+    "@value" : "Postal address"
+  } ]
+}, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -1703,19 +1724,6 @@
   }, {
     "@language" : "es",
     "@value" : "Sección Censal"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "Dirección Postal"
-  }, {
-    "@language" : "en",
-    "@value" : "Postal address"
   } ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad",

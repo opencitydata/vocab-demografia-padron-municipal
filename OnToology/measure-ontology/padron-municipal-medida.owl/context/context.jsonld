@@ -3,6 +3,9 @@
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
     "license" : {
       "@id" : "http://purl.org/dc/terms/license"
     },

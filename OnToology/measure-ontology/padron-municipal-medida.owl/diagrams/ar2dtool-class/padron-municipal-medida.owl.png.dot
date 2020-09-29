@@ -3,7 +3,6 @@ rankdir=LR;
 size="1501"
 	"http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" -> "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" [ label = "dc:identifier" ];
 	"http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" -> "base:" [ label = "vann:preferredNamespaceUri" ];
-	"http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" -> "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/espad-medida" [ label = "vann:preferredNamespacePrefix" ];
 	"http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" -> "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida.owl" [ label = "terms:hasFormat" ];
 	"http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida" -> "https://creativecommons.org/licenses/by/4.0" [ label = "terms:license" ];
 	"owl:Thing" -> "xsd:double" [ label = "base:porcentaje-de-poblacion-infantil-extranjera" ];

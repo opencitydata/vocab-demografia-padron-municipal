@@ -32,8 +32,8 @@
         <dc:creator>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dcterms:created>2019-08-30</dcterms:created>
-        <dcterms:created>2020-02-04</dcterms:created>
         <dcterms:hasFormat rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal.owl"/>
+        <dcterms:issued>2020-02-04</dcterms:issued>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
         <dcterms:title xml:lang="es">Vocabulario para la representación de los cubos de datos del padrón de habitantes</dcterms:title>
         <dcterms:title xml:lang="en">Vocabulary for data cubes representation of census of inhabitants.</dcterms:title>

@@ -77,11 +77,12 @@
   } ],
   "http://purl.org/dc/terms/created" : [ {
     "@value" : "2019-08-30"
-  }, {
-    "@value" : "2020-02-04"
   } ],
   "http://purl.org/dc/terms/hasFormat" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal.owl"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : "2020-02-04"
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0"

@@ -33,7 +33,9 @@
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:creator>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
-        <dcterms:issued>2019-04-29</dcterms:issued>
+        <dcterms:created>2019-04-29</dcterms:created>
+        <dcterms:hasFormat rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal.owl"/>
+        <dcterms:issued>2020-02-04</dcterms:issued>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
         <dcterms:title xml:lang="es">Vocabulario para la representación de datos sobre el padrón de habitantes</dcterms:title>
         <dcterms:title xml:lang="en">Vocabulary for the representation of the census of inhabitants.</dcterms:title>
@@ -79,6 +81,12 @@
     
 
 
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
     <!-- http://purl.org/dc/terms/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
@@ -88,6 +96,12 @@
     <!-- http://purl.org/dc/terms/hasFormat -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasFormat"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
     
 
 
@@ -1191,8 +1205,8 @@ These levels are represented by the concept list: http://vocab.linkeddata.es/dat
         <rdfs:label xml:lang="es">Provincia de procedencia</rdfs:label>
         <rdfs:comment xml:lang="es">Enlace entre el habitante y la provincia de procedencia. Cuando la variación del Padrón sea por un alta puede especificarse la provincia anterior de residencia del habitante.</rdfs:comment>
         <rdfs:comment xml:lang="en">Link from an inhabitant and the province of origin. When the variation is defined by a register the previous province of residence can be especified.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal"/>
         <rdfs:label xml:lang="en">Province of origin</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal"/>
     </rdf:Description>
 </rdf:RDF>
 

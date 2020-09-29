@@ -11,21 +11,25 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:esadm="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
      xmlns:escjr="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
-     xmlns:esdir="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#"
+     xmlns:esdir="http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
      xmlns:espad="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#"
      xmlns:schema="http://schema.org/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:skos-espad="http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/">
     <owl:Ontology rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal">
+        <dc:contributor>Antonio Bermejo Aguña - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor>Francisco Javier Catalina Celaya - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>María Carmen Ruiz Moreno - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>María Jesús Fernández Ruiz  - Ayuntamiento de Zaragoza</dc:contributor>
         <dc:contributor>María Jesús Gallego San Miguel - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>María del Mar Arribas de Andrés - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>Red.es</dc:contributor>
+        <dc:contributor>Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza</dc:contributor>
         <dc:contributor>Servicio de Informática - Ayuntamiento de Santiago de Compostela</dc:contributor>
         <dc:contributor>Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña</dc:contributor>
         <dc:contributor>Víctor Morlán Plo - Ayuntamiento de Zaragoza</dc:contributor>
+        <dc:contributor>Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza</dc:contributor>
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:creator>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
@@ -149,8 +153,8 @@
 
     <owl:ObjectProperty rdf:about="http://schema.org/address">
         <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#Habitante"/>
-        <rdfs:range rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal"/>
-        <rdfs:comment rdf:resource="http://schema.org"/>
+        <rdfs:range rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal"/>
+        <rdfs:isDefinedBy rdf:resource="http://schema.org"/>
         <rdfs:label xml:lang="en">Address</rdfs:label>
         <rdfs:label xml:lang="es">Dirección</rdfs:label>
     </owl:ObjectProperty>
@@ -982,6 +986,16 @@ These levels are represented by the concept list: http://vocab.linkeddata.es/dat
     
 
 
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal">
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal"/>
+        <rdfs:label xml:lang="es">Dirección Postal</rdfs:label>
+        <rdfs:label xml:lang="en">Postal address</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado -->
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado">
@@ -1068,16 +1082,6 @@ These levels are represented by the concept list: http://vocab.linkeddata.es/dat
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"/>
         <rdfs:label xml:lang="en">Census Section</rdfs:label>
         <rdfs:label xml:lang="es">Sección Censal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal -->
-
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal">
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal"/>
-        <rdfs:label xml:lang="es">Dirección Postal</rdfs:label>
-        <rdfs:label xml:lang="en">Postal address</rdfs:label>
     </owl:Class>
     
 
@@ -1187,8 +1191,8 @@ These levels are represented by the concept list: http://vocab.linkeddata.es/dat
         <rdfs:label xml:lang="es">Provincia de procedencia</rdfs:label>
         <rdfs:comment xml:lang="es">Enlace entre el habitante y la provincia de procedencia. Cuando la variación del Padrón sea por un alta puede especificarse la provincia anterior de residencia del habitante.</rdfs:comment>
         <rdfs:comment xml:lang="en">Link from an inhabitant and the province of origin. When the variation is defined by a register the previous province of residence can be especified.</rdfs:comment>
-        <rdfs:label xml:lang="en">Province of origin</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal"/>
+        <rdfs:label xml:lang="en">Province of origin</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 

@@ -7,15 +7,19 @@
 @base <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> .
 
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> rdf:type owl:Ontology ;
-                                                                    <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid" ,
+                                                                    <http://purl.org/dc/elements/1.1/contributor> "Antonio Bermejo Aguña - Ayuntamiento de Madrid" ,
+                                                                                                                  "Francisco Javier Catalina Celaya - Ayuntamiento de Madrid" ,
+                                                                                                                  "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid" ,
                                                                                                                   "María Carmen Ruiz Moreno - Ayuntamiento de Madrid" ,
                                                                                                                   "María Jesús Fernández Ruiz  - Ayuntamiento de Zaragoza" ,
                                                                                                                   "María Jesús Gallego San Miguel - Ayuntamiento de Madrid" ,
                                                                                                                   "María del Mar Arribas de Andrés - Ayuntamiento de Madrid" ,
                                                                                                                   "Red.es" ,
+                                                                                                                  "Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza" ,
                                                                                                                   "Servicio de Informática - Ayuntamiento de Santiago de Compostela" ,
                                                                                                                   "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña" ,
-                                                                                                                  "Víctor Morlán Plo - Ayuntamiento de Zaragoza" ;
+                                                                                                                  "Víctor Morlán Plo - Ayuntamiento de Zaragoza" ,
+                                                                                                                  "Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza" ;
                                                                     <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)" ,
                                                                                                               "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" ;
                                                                     <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" ;
@@ -90,8 +94,8 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://schema.org/address
 <http://schema.org/address> rdf:type owl:ObjectProperty ;
                             rdfs:domain :Habitante ;
-                            rdfs:range <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> ;
-                            rdfs:comment <http://schema.org> ;
+                            rdfs:range <http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal> ;
+                            rdfs:isDefinedBy <http://schema.org> ;
                             rdfs:label "Address"@en ,
                                        "Dirección"@es .
 
@@ -696,6 +700,13 @@ These levels are represented by the concept list: http://vocab.linkeddata.es/dat
                                "Variación de habitante"@es .
 
 
+###  http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal
+<http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal> rdf:type owl:Class ;
+                                                                                        rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal> ;
+                                                                                        rdfs:label "Dirección Postal"@es ,
+                                                                                                   "Postal address"@en .
+
+
 ###  http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado> rdf:type owl:Class ;
                                                                                     rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> ;
@@ -757,13 +768,6 @@ These levels are represented by the concept list: http://vocab.linkeddata.es/dat
                                                                                        rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> ;
                                                                                        rdfs:label "Census Section"@en ,
                                                                                                   "Sección Censal"@es .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> rdf:type owl:Class ;
-                                                                                                           rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal> ;
-                                                                                                           rdfs:label "Dirección Postal"@es ,
-                                                                                                                      "Postal address"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept

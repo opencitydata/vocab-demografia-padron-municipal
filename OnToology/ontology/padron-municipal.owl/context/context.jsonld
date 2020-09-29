@@ -19,7 +19,7 @@
       "@type" : "@id"
     },
     "DireccionPostal" : {
-      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal"
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal"
     },
     "registraHabitante" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#registraHabitante",

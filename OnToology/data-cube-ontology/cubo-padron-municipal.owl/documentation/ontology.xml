@@ -14,15 +14,19 @@
     <owl:Ontology rdf:about="http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal">
         <owl:versionIRI rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal"/>
         <owl:imports rdf:resource="http://purl.org/linked-data/cube"/>
+        <dc:contributor>Antonio Bermejo Aguña - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor>Francisco Javier Catalina Celaya - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>María Carmen Ruiz Moreno - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>María Jesús Fernández Ruiz  - Ayuntamiento de Zaragoza</dc:contributor>
         <dc:contributor>María Jesús Gallego San Miguel - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>María del Mar Arribas de Andrés - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor>Red.es</dc:contributor>
+        <dc:contributor>Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza</dc:contributor>
         <dc:contributor>Servicio de Informática - Ayuntamiento de Santiago de Compostela</dc:contributor>
         <dc:contributor>Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña</dc:contributor>
         <dc:contributor>Víctor Morlán Plo - Ayuntamiento de Zaragoza</dc:contributor>
+        <dc:contributor>Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza</dc:contributor>
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:creator>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>

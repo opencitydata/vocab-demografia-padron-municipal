@@ -32,6 +32,10 @@
   "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@value" : "Antonio Bermejo Aguña - Ayuntamiento de Madrid"
+  }, {
+    "@value" : "Francisco Javier Catalina Celaya - Ayuntamiento de Madrid"
+  }, {
     "@value" : "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"
   }, {
     "@value" : "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"
@@ -44,11 +48,15 @@
   }, {
     "@value" : "Red.es"
   }, {
+    "@value" : "Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza"
+  }, {
     "@value" : "Servicio de Informática - Ayuntamiento de Santiago de Compostela"
   }, {
     "@value" : "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"
   }, {
     "@value" : "Víctor Morlán Plo - Ayuntamiento de Zaragoza"
+  }, {
+    "@value" : "Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza"
   } ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
     "@value" : "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"

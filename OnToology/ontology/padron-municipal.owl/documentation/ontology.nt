@@ -1,13 +1,17 @@
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Antonio Bermejo Aguña - Ayuntamiento de Madrid" .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Francisco Javier Catalina Celaya - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María Carmen Ruiz Moreno - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Fernández Ruiz  - Ayuntamiento de Zaragoza" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Gallego San Miguel - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "María del Mar Arribas de Andrés - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Red.es" .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Informática - Ayuntamiento de Santiago de Compostela" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Víctor Morlán Plo - Ayuntamiento de Zaragoza" .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/contributor> "Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal> <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" .
@@ -84,8 +88,8 @@
 # http://schema.org/address
 <http://schema.org/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/address> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#Habitante> .
-<http://schema.org/address> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> .
-<http://schema.org/address> <http://www.w3.org/2000/01/rdf-schema#comment> <http://schema.org> .
+<http://schema.org/address> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal> .
+<http://schema.org/address> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://schema.org> .
 <http://schema.org/address> <http://www.w3.org/2000/01/rdf-schema#label> "Address"@en .
 <http://schema.org/address> <http://www.w3.org/2000/01/rdf-schema#label> "Dirección"@es .
 # 
@@ -673,6 +677,12 @@ _:genid56 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XM
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#VariacionHabitante> <http://www.w3.org/2000/01/rdf-schema#label> "Inhabitant variation"@en .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#VariacionHabitante> <http://www.w3.org/2000/01/rdf-schema#label> "Variación de habitante"@es .
 # 
+# http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal
+<http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal> .
+<http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#label> "Dirección Postal"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#label> "Postal address"@en .
+# 
 # http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Diseminado> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
@@ -726,12 +736,6 @@ _:genid56 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XM
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#SeccionCensal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#SeccionCensal> <http://www.w3.org/2000/01/rdf-schema#label> "Census Section"@en .
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#SeccionCensal> <http://www.w3.org/2000/01/rdf-schema#label> "Sección Censal"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#label> "Dirección Postal"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#label> "Postal address"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#Concept
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

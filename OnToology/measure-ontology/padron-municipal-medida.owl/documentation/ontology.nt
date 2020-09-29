@@ -1,13 +1,17 @@
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "Antonio Bermejo Aguña - Ayuntamiento de Madrid" .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "Francisco Javier Catalina Celaya - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "María Carmen Ruiz Moreno - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Gallego San Miguel - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "María del Mar Arribas de Andrés - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "Red.es" .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Informática - Ayuntamiento de Santiago de Compostela" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "Víctor Morlán Plo - Ayuntamiento de Zaragoza" .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/contributor> "Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/identifier> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> .

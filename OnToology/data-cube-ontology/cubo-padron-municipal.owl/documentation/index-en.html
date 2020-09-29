@@ -8,9 +8,9 @@
 <!-- SCHEMA.ORG METADATA -->
 <script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal","name":"Vocabulary for data cubes representation of census of inhabitants.", "headline":"Document describing the ontology http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal", "datePublished":"Tue Feb 04 18:36:09 UTC 2020", "license":"https://creativecommons.org/licenses/by/4.0", "author":[{"@type":"Person","name":"Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"},{"@type":"Person","name":"Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)"}], "contributor":[{"@type":"Person","name":"Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"},{"@type":"Person","name":"María Carmen Ruiz Moreno - Ayuntamiento de Madrid"},{"@type":"Person","name":"María Jesús Fernández Ruiz  - Ayuntamiento de Zaragoza"},{"@type":"Person","name":"María Jesús Gallego San Miguel - Ayuntamiento de Madrid"},{"@type":"Person","name":"María del Mar Arribas de Andrés - Ayuntamiento de Madrid"},{"@type":"Person","name":"Red.es"},{"@type":"Person","name":"Servicio de Informática - Ayuntamiento de Santiago de Compostela"},{"@type":"Person","name":"Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"},{"@type":"Person","name":"Víctor Morlán Plo - Ayuntamiento de Zaragoza"}]}</script>
 
-<script src="resources/jquery.js"></script> 
-<script src="resources/marked.min.js"></script> 
-    <script> 
+<script src="resources/jquery.js"></script>
+<script src="resources/marked.min.js"></script>
+    <script>
 function loadHash() {
   jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
 	var hash = location.hash;
@@ -40,20 +40,20 @@ function loadTOC(){
 		}
 	  });
 	  t+='</ul>';
-	  $("#toc").html(t); 
+	  $("#toc").html(t);
 }
  $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
  };    $(function(){
-      $("#abstract").load("sections/abstract-en.html"); 
-      $("#introduction").load("sections/introduction-en.html"); 
-      $("#overview").load("sections/overview-en.html"); 
-      $("#description").load("sections/description-en.html"); 
-      $("#references").load("sections/references-en.html"); 
-      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
+      $("#abstract").load("sections/abstract-en.html");
+      $("#introduction").load("sections/introduction-en.html");
+      $("#overview").load("sections/overview-en.html");
+      $("#description").load("sections/description-en.html");
+      $("#references").load("sections/references-en.html");
+      $("#crossref").load("sections/crossref-en.html", null, loadHash);
     });
-    </script> 
-  </head> 
+    </script>
+  </head>
 
 <body>
 <div class="container">
@@ -69,7 +69,7 @@ function loadTOC(){
 <dd>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dd><dd>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dd>
 
 <dt>Contributors:</dt>
-<dd>Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid</dd><dd>María Carmen Ruiz Moreno - Ayuntamiento de Madrid</dd><dd>María Jesús Fernández Ruiz  - Ayuntamiento de Zaragoza</dd><dd>María Jesús Gallego San Miguel - Ayuntamiento de Madrid</dd><dd>María del Mar Arribas de Andrés - Ayuntamiento de Madrid</dd><dd>Red.es</dd><dd>Servicio de Informática - Ayuntamiento de Santiago de Compostela</dd><dd>Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña</dd><dd>Víctor Morlán Plo - Ayuntamiento de Zaragoza</dd>
+<dd>Ángel Pueyo Campos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza</dd><dd>Antonio Bermejo Aguña - Ayuntamiento de Madrid</dd><dd>Francisco Javier Catalina Celaya - Ayuntamiento de Madrid</dd><dd>Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid</dd><dd>María Carmen Ruiz Moreno - Ayuntamiento de Madrid</dd><dd>María Jesús Fernández Ruiz  - Ayuntamiento de Zaragoza</dd><dd>María Jesús Gallego San Miguel - Ayuntamiento de Madrid</dd><dd>María del Mar Arribas de Andrés - Ayuntamiento de Madrid</dd><dd>Red.es</dd><dd>Sergio Valdivielso Pardos - Departamento de Geografía y Ordenación del Territorio - Universidad de Zaragoza</dd><dd>Servicio de Informática - Ayuntamiento de Santiago de Compostela</dd><dd>Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña</dd><dd>Víctor Morlán Plo - Ayuntamiento de Zaragoza</dd>
 
 <dt>Imported Ontologies:</dt>
 <dd><a href="http://purl.org/linked-data/cube">cube</a></dd>

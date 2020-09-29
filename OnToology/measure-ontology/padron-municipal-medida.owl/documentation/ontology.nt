@@ -16,14 +16,15 @@
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/identifier> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/terms/created> "2019-08-30" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/terms/description> "Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal."@es .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/terms/description> "Vocabulary for the representation of the data cube measures of the census of inhabitants."@en .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/terms/hasFormat> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida.owl> .
-<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/terms/issued> "2019-08-30"@es .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/terms/issued> "2020-02-04" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/terms/title> "Vocabulario para la representación de las medidas de los cubos de datos de padrón municipal."@es .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/dc/terms/title> "Vocabulary for the representation of the data cube measures of the census of inhabitants."@en .
-<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/espad-medida> .
+<http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/vocab/vann/preferredNamespacePrefix> "espad-medida" .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#> .
 <http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
 # 
@@ -46,6 +47,9 @@
 # 
 # http://purl.org/dc/elements/1.1/rights
 <http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .

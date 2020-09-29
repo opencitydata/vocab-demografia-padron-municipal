@@ -14,6 +14,9 @@
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
     "seccionResidencia" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#seccionResidencia",
       "@type" : "@id"
@@ -60,6 +63,9 @@
     "activo" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal#activo",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasVersion" : {
+      "@id" : "http://purl.org/dc/terms/hasVersion"
     },
     "SeccionCensal" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#SeccionCensal"

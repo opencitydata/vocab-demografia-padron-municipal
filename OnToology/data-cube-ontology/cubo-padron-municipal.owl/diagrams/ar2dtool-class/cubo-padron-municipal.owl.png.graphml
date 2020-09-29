@@ -5,7 +5,7 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="117" parse.nodes="97" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="118" parse.nodes="98" parse.order="free">
       <node id="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNivelEstudio_refArea">
          <data key="d0">
             <y:ShapeNode>
@@ -2175,7 +2175,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:versionIRI99" source="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal">
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal.owl">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="730.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal.owl</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_dcterms:hasFormat99" source="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal.owl">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">dcterms:hasFormat</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:versionIRI100" source="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2198,7 +2221,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_dcterms:license100" source="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" target="nid_https://creativecommons.org/licenses/by/4.0">
+    <edge id="eid_dcterms:license101" source="nid_http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" target="nid_https://creativecommons.org/licenses/by/4.0">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2209,7 +2232,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cube:dimension101" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+    <edge id="eid_cube:dimension102" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2220,7 +2243,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cube:dimension102" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+    <edge id="eid_cube:dimension103" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorEdad_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2231,7 +2254,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cube:dimension103" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#sex">
+    <edge id="eid_cube:dimension104" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_sex" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#sex">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2254,7 +2277,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_cube:dimension104" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
+    <edge id="eid_cube:dimension105" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refArea">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2265,7 +2288,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cube:dimension105" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refPeriod">
+    <edge id="eid_cube:dimension106" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refPeriod" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#refPeriod">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2288,7 +2311,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_cube:measure106" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad">
+    <edge id="eid_cube:measure107" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_indice-de-maternidad" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#indice-de-maternidad">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2299,7 +2322,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cube:measure107" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
+    <edge id="eid_cube:measure108" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_numero-personas" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#numero-personas">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2322,7 +2345,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_cube:dimension108" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales" target="nid_http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales">
+    <edge id="eid_cube:dimension109" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales" target="nid_http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2345,7 +2368,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_cube:component109" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales">
+    <edge id="eid_cube:component110" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_edad-grupos-quinquenales">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2356,7 +2379,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cube:component110" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod">
+    <edge id="eid_cube:component111" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refPeriod">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2367,7 +2390,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cube:component111" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea">
+    <edge id="eid_cube:component112" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_refArea">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2378,7 +2401,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cube:component112" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas">
+    <edge id="eid_cube:component113" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_numero-personas">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2389,7 +2412,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cube:component113" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad">
+    <edge id="eid_cube:component114" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_nacionalidad">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2400,7 +2423,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cube:component114" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex">
+    <edge id="eid_cube:component115" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/DSD_PoblacionPorNacionalidad" target="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorNacionalidad_sex">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2423,7 +2446,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_cube:measure115" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta">
+    <edge id="eid_cube:measure116" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-analfabeta" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-analfabeta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2446,7 +2469,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_cube:measure116" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero">
+    <edge id="eid_cube:measure117" source="nid_http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_porcentaje-de-poblacion-nacida-en-el-extranjero" target="nid_http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal/medida#porcentaje-de-poblacion-nacida-en-el-extranjero">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />

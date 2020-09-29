@@ -26,7 +26,9 @@
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:creator>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
-        <terms:issued>2019-04-29</terms:issued>
+        <terms:created>2019-04-29</terms:created>
+        <terms:hasFormat rdf:resource="http://vocab.ciudadesabiertas.es/def/demografia/padron-municipal.owl"/>
+        <terms:issued>2020-02-04</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
         <terms:title xml:lang="es">Vocabulario para la representación de datos sobre el padrón de habitantes</terms:title>
         <terms:title xml:lang="en">Vocabulary for the representation of the census of inhabitants.</terms:title>
@@ -77,6 +79,13 @@
     
 
 
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
     <!-- http://purl.org/dc/terms/description -->
 
 
@@ -88,6 +97,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasFormat"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
     
 
 

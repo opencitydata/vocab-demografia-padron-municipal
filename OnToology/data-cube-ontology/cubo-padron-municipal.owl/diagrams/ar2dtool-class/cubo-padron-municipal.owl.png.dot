@@ -100,6 +100,7 @@ size="1501"
 	"http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorPaisNacimiento_edad-grupos-quinquenales" -> "http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales" [ label = "cube:dimension" ];
 	"http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_PoblacionPorLugarProcedencia_refArea" -> "http://purl.org/linked-data/sdmx/2009/dimension#refArea" [ label = "cube:dimension" ];
 	"http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" -> "http://purl.org/linked-data/cube" [ label = "owl:imports" ];
+	"http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" -> "http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal.owl" [ label = "dcterms:hasFormat" ];
 	"http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" -> "http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" [ label = "owl:versionIRI" ];
 	"http://vocab.ciudadesabiertas.es/def/demografia/cubo-padron-municipal" -> "https://creativecommons.org/licenses/by/4.0" [ label = "dcterms:license" ];
 	"http://vocab.ciudadesabiertas.es/recurso/demografia/padron-municipal/CS_IndicadoresEstructuraDemografica_refArea" -> "http://purl.org/linked-data/sdmx/2009/dimension#refArea" [ label = "cube:dimension" ];
